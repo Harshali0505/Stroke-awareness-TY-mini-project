@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_excel("C:/Projects/stroke_ml_project/cleaned_datasheet_2.xlsx")
+df = pd.read_excel(r"C:\Projects\Stroke-awareness-TY-mini-project\current_work\cleaned_datasheet_3.xlsx")
 
 # ========= Basic Scoring Functions ========= #
 
@@ -56,31 +56,55 @@ def score_misconception(value):
 # ======= New scoring functions for new columns ======= #
 
 def score_symptom_checklist(value):
-    # correct symptoms: confusion, numbness, vision trouble
-    correct = ["confusion", "numbness", "weakness", "vision", "seeing"]
-    
     if not isinstance(value, str):
         return 0
 
-    v = value.lower()
-    count = sum(1 for c in correct if c in v)
-    return min(count, 3)  # max 3 points
+    v = value.lower().strip()
+
+    # Hard stop
+    if v in ["unaware", "no_response"]:
+        return 0
+
+    # Normalize "_or_" → ","
+    v = v.replace("_or_", ",")
+
+    valid_symptoms = {
+        "balance_coordination_problem",
+        "motor_weakness",
+        "speech_language_problem",
+        "vision_problem",
+        "severe_headache",
+        "swallowing_or_consciousness"
+    }
+
+    reported = {x.strip() for x in v.split(",")}
+
+    return len(reported.intersection(valid_symptoms))
+
 
 def score_risk_factors(value):
     if not isinstance(value, str):
         return 0
-    v = value.lower()
+
+    v = value.lower().strip()
+
+    # Hard stop
+    if v in ["unaware", "no_response"]:
+        return 0
+
+    # Normalize "_or_" → ","
+    v = v.replace("_or_", ",")
+
     risk_categories = {
-        "blood_pressure": ["blood_pressure", "heart_problem", "hypertension"],
-        "diabetes": ["diabetes", "obesity"],
-        "smoking": ["smoking", "alcohol", "drugs"],
-        "age_family": ["age", "family_history"]
+        "blood_pressure", "heart_problem", "hypertension",
+        "diabetes", "obesity",
+        "smoking", "alcohol", "drugs",
+        "age", "family_history"
     }
-    score = 0
-    for keywords in risk_categories.values():
-        if any(k in v for k in keywords):
-            score += 1
-    return score  # max = 4
+
+    reported = {x.strip() for x in v.split(",")}
+
+    return len(reported.intersection(risk_categories))
 
 
 def score_advice(value):
@@ -157,15 +181,16 @@ max_score = sum(weights[col] * max_values[col] for col in weights)
 df["symptom_awareness_score"] = (df["score_symptoms_combined"] / max_symptom_score * 10).clip(0, 10).round(2)
 df["awareness_score"] = (df["total_raw_score"] / max_score * 10).clip(0, 10).round(2)
 
-print(df[["awareness_score"]].head())
-print(f"Min Score: {df['awareness_score'].min()}")
-print(f"Max Score: {df['awareness_score'].max()}")
-print(df[["symptom_awareness_score"]].head())
-print(f"Min Symptom Score: {df['symptom_awareness_score'].min()}")
-print(f"Max Symptom Score: {df['symptom_awareness_score'].max()}")
+#print(df[["awareness_score"]].head())
+#print(f"Min Score: {df['awareness_score'].min()}")
+#print(f"Max Score: {df['awareness_score'].max()}")
+#print(df[["symptom_awareness_score"]].head())
+#print(f"Min Symptom Score: {df['symptom_awareness_score'].min()}")
+#print(f"Max Symptom Score: {df['symptom_awareness_score'].max()}")
 # === Step 5: Save output ===
-output_path = "C:/Projects/stroke_ml_project/awareness_scores.csv"
+output_path = r"C:\Projects\Stroke-awareness-TY-mini-project\current_work\awareness_scores.csv"
 df.to_csv(output_path, index=False)
 print(f"✅ Awareness scores calculated and saved to {output_path}")
-print(df["risk_factors"].value_counts())
-print(df["if_you_experience_symptoms_of_warning_signs,_which_specialist_would_you_consult?"].value_counts())
+print(df["score_risk"].value_counts())
+print(df["symptom_awareness_score"].value_counts())
+#print(df["if_you_experience_symptoms_of_warning_signs,_which_specialist_would_you_consult?"].value_counts())

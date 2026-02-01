@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 print("🔥 RUNNING LATEST VERSION 🔥")
 
 # === Step 1: Load the scored data ===
-df = pd.read_csv("C:/Projects/stroke_ml_project/awareness_scores.csv")
+df = pd.read_csv("C:/Projects/Stroke-awareness-TY-mini-project/current_work/awareness_scores.csv")
 
 # === Step 2: Categorize awareness levels ===
 def categorize_awareness(score):
@@ -34,9 +34,9 @@ def categorize_action_first_symptom(score):
     else:
         return "High Awareness"
 def categorize_symptom_awareness(score):
-    if score < 6:
+    if score < 4.8:
         return "Low Awareness"
-    elif 6 <= score < 8.3:
+    elif score==4.8:
         return "Moderate Awareness"
     else:
         return "High Awareness"
@@ -55,9 +55,9 @@ def categorize_urgency(score):
     else:  # score == 2
         return "High Awareness"
 def categorize_risk_awareness(score):
-    if score == 0:
+    if 0<=score <= 5:
         return "Low Awareness"
-    elif score <= 2:
+    elif 6<=score <= 7:
         return "Moderate Awareness"
     else:
         return "High Awareness"
@@ -262,8 +262,8 @@ plt.title("Awareness Level Distribution - Advice")
 plt.show()
 
 # === Step 6: Save categorized results ===
-df.to_csv("C:/Projects/stroke_ml_project/awareness_scores_with_categories.csv", index=False)
+df.to_csv("C:/Projects/Stroke-awareness-TY-mini-project/current_work/awareness_scores_with_categories.csv", index=False)
 print("✅ Visuals generated and file saved with awareness categories.")
-print(df["score_action_first_symptom"].value_counts())
-print(df["symptom_awareness_score"].value_counts())
-print(df["score_risk"].value_counts())
+#print(df["score_action_first_symptom"].value_counts())
+#print(df["symptom_awareness_score"].value_counts())
+#print(df["score_risk"].value_counts())
