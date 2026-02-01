@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Generated data
+*.csv
+
+# Local datasets
+*.xlsx
+*.docx
+
+# OS junk
+.DS_Store
+Thumbs.db
