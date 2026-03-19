@@ -1,0 +1,133 @@
+# PHASE 4: TRIANGULATION & HYPOTHESIS VALIDATION
+
+Triangulation was conducted by integrating inferential statistical testing (Chi-square, ANOVA) with unsupervised clustering patterns (K-Means segmentation). This dual-layer validation approach ensured that hypothesis testing was not reliant solely on p-values, but also supported by structural behavioral grouping within the population.
+
+---
+
+## H1: Awareness vs Lifestyle Risk
+
+**Hypothesis H1:**
+Individuals with lower health awareness will exhibit higher lifestyle risk behaviors such as poor diet and physical inactivity.
+
+### 1️⃣ Statistical Evidence
+
+* Chi-square test: **p = 0.1031**
+
+The association between awareness category and lifestyle risk category did not reach conventional statistical significance at α = 0.05. This suggests that, at the aggregate level, awareness alone may not be a sufficiently strong predictor of lifestyle risk classification.
+
+### 2️⃣ Cluster-Level Structural Evidence
+
+K-Means clustering revealed distinct behavioral profiles:
+
+* **Cluster 2**: Entirely low awareness population, split between high and low lifestyle risk (48.6% vs 51.4%), indicating heterogeneity within low-awareness individuals.
+* **Cluster 3**: Dominated by high awareness individuals, yet 57.9% still fall under high lifestyle risk.
+* **Cluster 1**: Substantial proportion of low-awareness individuals with high lifestyle risk (35.2%).
+
+### Integrated Interpretation
+
+While inferential testing does not confirm a statistically significant association, cluster analysis reveals that low awareness groups are frequently embedded within high-risk behavioral profiles. However, high awareness does not consistently translate into low lifestyle risk.
+
+**Conclusion:** H1 receives partial structural support but lacks strong inferential statistical confirmation. Awareness alone does not deterministically explain lifestyle risk behavior.
+
+---
+
+## H2: Age vs Cautious Health Behavior
+
+**Hypothesis H2:**
+Older individuals are more likely to demonstrate cautious health behavior compared to younger individuals.
+
+### 1️⃣ Statistical Evidence
+
+* Age vs Action: Chi-square p = 0.1247 (not significant)
+* Age vs Urgency: ANOVA F = 7.23, p = 7.71e-05 (highly significant)
+
+While action-taking behavior does not significantly differ across age groups in categorical terms, urgency levels show statistically significant variation.
+
+### 2️⃣ Cluster-Level Evidence
+
+* **Cluster 3** shows higher representation of individuals aged 41–60 and 60+, with greater proportions of proactive behavior.
+* **Cluster 2** is dominated by younger age groups (18–25, 26–40) with predominantly passive action patterns.
+* Older age groups consistently show higher proactive percentages relative to passive within structured clusters.
+
+### Integrated Interpretation
+
+Although categorical action differences are not statistically significant, urgency levels significantly increase with age. Cluster structure further indicates that older individuals are more concentrated within proactive behavioral segments.
+
+**Conclusion:** H2 is supported in terms of urgency behavior and cluster-based proactive dominance, though categorical action alone does not show statistical significance.
+
+---
+
+## H3: Symptom Awareness but Delayed Medical Consultation (Cognitive Paradox)
+
+**Hypothesis H3:**
+There exists a distinct population group that possesses symptom awareness but delays medical consultation.
+
+### 1️⃣ Statistical Evidence
+
+* Awareness vs Action Chi-square: **p = 1.81e-40**
+
+This extremely significant result confirms a strong association between awareness and action-taking behavior.
+
+### 2️⃣ Cluster Identification of the Paradox Group
+
+Clusters 0 and 3 both contain substantial proportions of:
+
+* High Awareness
+* Passive Action
+
+For example:
+
+* Cluster 0: 38.97% High Awareness – Passive
+* Cluster 3: 38.48% High Awareness – Passive
+
+These clusters demonstrate that awareness does not uniformly translate into proactive consultation behavior.
+
+### Integrated Interpretation
+
+The coexistence of high awareness with passive action confirms the presence of a behavioral-cognitive gap. The statistical association is strong, but cluster analysis reveals that a non-trivial subgroup demonstrates awareness without medical urgency.
+
+**Conclusion:** H3 is strongly supported both statistically and structurally, validating the existence of the “awareness–action paradox.”
+
+---
+
+## H4: Meaningful Behavioral Segmentation
+
+**Hypothesis H4:**
+The population can be segmented into meaningful behavioral clusters based on awareness, medical risk, lifestyle risk, and action-taking behavior.
+
+### 1️⃣ Statistical Evidence
+
+* ANOVA (Cluster vs Awareness Score):
+  F = 5794.48, p < 0.001
+
+This indicates extremely strong differentiation between clusters in terms of awareness scores.
+
+### 2️⃣ Structural Coherence
+
+Each of the four clusters demonstrates clear behavioral dominance patterns exceeding 60% concentration in specific dimensions:
+
+* Cluster 2: Low awareness dominance
+* Cluster 3: High awareness with mixed lifestyle risk
+* Cluster 1: Elevated lifestyle risk concentration
+* Cluster 0: Mixed awareness but structured action patterns
+
+The segmentation is not random noise; it reflects consistent multidimensional behavioral structuring.
+
+### Integrated Interpretation
+
+The clustering solution demonstrates high internal coherence and statistically significant differentiation across awareness scores, supporting the existence of meaningful behavioral archetypes within the population.
+
+**Conclusion:** H4 is strongly supported. The four-cluster structure represents distinct and interpretable behavioral segments.
+
+---
+
+# Overall Triangulation Outcome
+
+This study demonstrates that:
+
+* Not all hypothesized relationships are uniformly supported by inferential statistics (H1, partial H2).
+* Behavioral complexity is better captured through combined inferential and unsupervised modeling approaches.
+* The awareness–action gap (H3) emerges as the most statistically robust and structurally consistent finding.
+* Population segmentation (H4) provides a validated behavioral framework for targeted intervention strategies.
+
+In summary, triangulation strengthened interpretative validity by integrating statistical testing with behavioral segmentation, preventing overreliance on p-values while avoiding purely descriptive conclusions.

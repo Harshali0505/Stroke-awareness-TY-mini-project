@@ -1,0 +1,29 @@
+PHASE 3: CLUSTERING FINAL REPORT
+================================
+
+Method Comparison:
+- K-Means and GMM provided the most balanced segments.
+- DBSCAN identified noise points but struggled with the high-dimensional density.
+- Spectral and Hierarchical confirmed the 4-cluster structure.
+
+Identified Population Personas (K-Means Baseline):
+Persona 0: High Awareness | Low Risk | Proactive
+  Avg Awareness: 6.52
+  Avg Risk:      -0.29
+  Avg Urgency:   1.96
+
+Persona 1: Low Awareness | High Risk | Passive
+  Avg Awareness: 4.26
+  Avg Risk:      0.04
+  Avg Urgency:   0.00
+
+Persona 2: Low Awareness | Low Risk | Passive
+  Avg Awareness: 1.35
+  Avg Risk:      -0.01
+  Avg Urgency:   0.21
+
+Persona 3: High Awareness | High Risk | Proactive
+  Avg Awareness: 6.61
+  Avg Risk:      0.20
+  Avg Urgency:   2.00
+

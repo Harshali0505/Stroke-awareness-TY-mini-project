@@ -1,0 +1,52 @@
+﻿============================================================
+PHASE 2: TESTING HYPOTHESIS 1 (H1)
+H1: Low Awareness -> Higher Lifestyle Risk
+============================================================
+
+STEP 2: CONTINGENCY TABLE (2x2)
+------------------------------
+lifestyle_risk_cat  High Risk  Low Risk
+awareness_cat                          
+High Awareness           1558      1493
+Low Awareness            1526      1591
+
+STEP 3: CHI-SQUARE TEST
+------------------------------
+Chi-square statistic: 2.6566
+p-value:              0.1031
+Interpretation: No significant association found (p >= 0.05).
+
+STEP 4: ODDS RATIO (OR)
+------------------------------
+Odds Ratio: 0.9191
+Interpretation: Low Awareness is associated with lower odds of High Lifestyle Risk.
+
+STEP 5: LOGISTIC REGRESSION
+------------------------------
+                             Logit Regression Results                            
+=================================================================================
+Dep. Variable:     lifestyle_risk_binary   No. Observations:                 6168
+Model:                             Logit   Df Residuals:                     6166
+Method:                              MLE   Df Model:                            1
+Date:                   Sun, 22 Feb 2026   Pseudo R-squ.:               0.0003205
+Time:                           11:17:24   Log-Likelihood:                -4274.0
+converged:                          True   LL-Null:                       -4275.3
+Covariance Type:               nonrobust   LLR p-value:                   0.09784
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.0426      0.036      1.177      0.239      -0.028       0.114
+is_low_awareness    -0.0843      0.051     -1.655      0.098      -0.184       0.016
+====================================================================================
+
+Logistic P-value: 0.0979
+Coefficient:      -0.0843
+
+============================================================
+STEP 6: FINAL CONCLUSION
+============================================================
+CONCLUSION: Hypothesis 1 (H1) is NOT SUPPORTED.
+There is no significant evidence that low awareness leads to higher lifestyle risk in this dataset.
+
+(Note: Correlation diagnostics earlier showed r = 0.013, which consistent with these findings if p > 0.05)
+============================================================

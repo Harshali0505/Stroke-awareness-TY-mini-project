@@ -1,0 +1,414 @@
+============================================================
+PHASE 3.3 - CROSS-TABS BEHAVIORAL DOMINANCE VALIDATION
+============================================================
+
+ALGORITHM: K-Means
+----------------------------------------
+Variable: awareness_cat (Percentages by Cluster)
+awareness_cat   High Awareness  Low Awareness
+cluster_kmeans                               
+0                    83.487654      16.512346
+1                    30.385638      69.614362
+2                     0.000000     100.000000
+3                    86.449400      13.550600
+
+Dominance Check (>60%):
+  Cluster 0: Dominant category 'High Awareness' (83.5%)
+  Cluster 1: Dominant category 'Low Awareness' (69.6%)
+  Cluster 2: Dominant category 'Low Awareness' (100.0%)
+  Cluster 3: Dominant category 'High Awareness' (86.4%)
+--------------------
+Variable: lifestyle_risk_cat (Percentages by Cluster)
+lifestyle_risk_cat  High Risk   Low Risk
+cluster_kmeans                          
+0                   27.314815  72.685185
+1                   52.127660  47.872340
+2                   48.610253  51.389747
+3                   66.266438  33.733562
+
+Dominance Check (>60%):
+  Cluster 0: Dominant category 'Low Risk' (72.7%)
+  Cluster 3: Dominant category 'High Risk' (66.3%)
+--------------------
+Variable: action_cat (Percentages by Cluster)
+action_cat        Passive  Proactive
+cluster_kmeans                      
+0               44.290123  55.709877
+1               38.164894  61.835106
+2               86.658431  13.341569
+3               42.367067  57.632933
+
+Dominance Check (>60%):
+  Cluster 1: Dominant category 'Proactive' (61.8%)
+  Cluster 2: Dominant category 'Passive' (86.7%)
+--------------------
+
+========================================
+
+ALGORITHM: Hierarchical
+----------------------------------------
+Variable: awareness_cat (Percentages by Cluster)
+awareness_cat         High Awareness  Low Awareness
+cluster_hierarchical                               
+1                          89.481066      10.518934
+2                          38.862179      61.137821
+3                           0.000000     100.000000
+4                           1.469045      98.530955
+
+Dominance Check (>60%):
+  Cluster 1: Dominant category 'High Awareness' (89.5%)
+  Cluster 2: Dominant category 'Low Awareness' (61.1%)
+  Cluster 3: Dominant category 'Low Awareness' (100.0%)
+  Cluster 4: Dominant category 'Low Awareness' (98.5%)
+--------------------
+Variable: lifestyle_risk_cat (Percentages by Cluster)
+lifestyle_risk_cat    High Risk   Low Risk
+cluster_hierarchical                      
+1                     50.806452  49.193548
+2                     56.891026  43.108974
+3                     45.022422  54.977578
+4                     44.386149  55.613851
+
+Dominance Check (>60%):
+  No single category dominates > 60% in any cluster.
+--------------------
+Variable: action_cat (Percentages by Cluster)
+action_cat               Passive  Proactive
+cluster_hierarchical                       
+1                      41.795231  58.204769
+2                      47.916667  52.083333
+3                     100.000000   0.000000
+4                      40.608604  59.391396
+
+Dominance Check (>60%):
+  Cluster 3: Dominant category 'Passive' (100.0%)
+--------------------
+
+========================================
+
+ALGORITHM: DBSCAN
+----------------------------------------
+Variable: awareness_cat (Percentages by Cluster)
+awareness_cat   High Awareness  Low Awareness
+cluster_dbscan                               
+0                    23.076923      76.923077
+1                     0.000000     100.000000
+2                     0.000000     100.000000
+3                     0.000000     100.000000
+4                     0.000000     100.000000
+5                     0.000000     100.000000
+6                     0.000000     100.000000
+7                     0.000000     100.000000
+8                    22.297297      77.702703
+9                     0.000000     100.000000
+10                   98.206278       1.793722
+11                   90.099010       9.900990
+12                   22.222222      77.777778
+13                   89.772727      10.227273
+14                   97.959184       2.040816
+15                   94.736842       5.263158
+16                   88.217523      11.782477
+17                    0.000000     100.000000
+18                   27.444795      72.555205
+19                    0.000000     100.000000
+20                   96.039604       3.960396
+21                    0.000000     100.000000
+22                    0.000000     100.000000
+23                  100.000000       0.000000
+24                   83.695652      16.304348
+25                   97.350993       2.649007
+26                    0.000000     100.000000
+27                   36.363636      63.636364
+28                    0.000000     100.000000
+29                   32.876712      67.123288
+30                    0.000000     100.000000
+31                    0.000000     100.000000
+32                  100.000000       0.000000
+33                   33.333333      66.666667
+34                  100.000000       0.000000
+35                   36.363636      63.636364
+36                    0.000000     100.000000
+37                   10.526316      89.473684
+38                    0.000000     100.000000
+
+Dominance Check (>60%):
+  Cluster 0: Dominant category 'Low Awareness' (76.9%)
+  Cluster 1: Dominant category 'Low Awareness' (100.0%)
+  Cluster 2: Dominant category 'Low Awareness' (100.0%)
+  Cluster 3: Dominant category 'Low Awareness' (100.0%)
+  Cluster 4: Dominant category 'Low Awareness' (100.0%)
+  Cluster 5: Dominant category 'Low Awareness' (100.0%)
+  Cluster 6: Dominant category 'Low Awareness' (100.0%)
+  Cluster 7: Dominant category 'Low Awareness' (100.0%)
+  Cluster 8: Dominant category 'Low Awareness' (77.7%)
+  Cluster 9: Dominant category 'Low Awareness' (100.0%)
+  Cluster 10: Dominant category 'High Awareness' (98.2%)
+  Cluster 11: Dominant category 'High Awareness' (90.1%)
+  Cluster 12: Dominant category 'Low Awareness' (77.8%)
+  Cluster 13: Dominant category 'High Awareness' (89.8%)
+  Cluster 14: Dominant category 'High Awareness' (98.0%)
+  Cluster 15: Dominant category 'High Awareness' (94.7%)
+  Cluster 16: Dominant category 'High Awareness' (88.2%)
+  Cluster 17: Dominant category 'Low Awareness' (100.0%)
+  Cluster 18: Dominant category 'Low Awareness' (72.6%)
+  Cluster 19: Dominant category 'Low Awareness' (100.0%)
+  Cluster 20: Dominant category 'High Awareness' (96.0%)
+  Cluster 21: Dominant category 'Low Awareness' (100.0%)
+  Cluster 22: Dominant category 'Low Awareness' (100.0%)
+  Cluster 23: Dominant category 'High Awareness' (100.0%)
+  Cluster 24: Dominant category 'High Awareness' (83.7%)
+  Cluster 25: Dominant category 'High Awareness' (97.4%)
+  Cluster 26: Dominant category 'Low Awareness' (100.0%)
+  Cluster 27: Dominant category 'Low Awareness' (63.6%)
+  Cluster 28: Dominant category 'Low Awareness' (100.0%)
+  Cluster 29: Dominant category 'Low Awareness' (67.1%)
+  Cluster 30: Dominant category 'Low Awareness' (100.0%)
+  Cluster 31: Dominant category 'Low Awareness' (100.0%)
+  Cluster 32: Dominant category 'High Awareness' (100.0%)
+  Cluster 33: Dominant category 'Low Awareness' (66.7%)
+  Cluster 34: Dominant category 'High Awareness' (100.0%)
+  Cluster 35: Dominant category 'Low Awareness' (63.6%)
+  Cluster 36: Dominant category 'Low Awareness' (100.0%)
+  Cluster 37: Dominant category 'Low Awareness' (89.5%)
+  Cluster 38: Dominant category 'Low Awareness' (100.0%)
+--------------------
+Variable: lifestyle_risk_cat (Percentages by Cluster)
+lifestyle_risk_cat   High Risk    Low Risk
+cluster_dbscan                            
+0                    24.358974   75.641026
+1                    32.758621   67.241379
+2                    27.374302   72.625698
+3                    50.000000   50.000000
+4                    12.500000   87.500000
+5                    55.284553   44.715447
+6                    33.333333   66.666667
+7                    55.294118   44.705882
+8                    60.810811   39.189189
+9                     0.000000  100.000000
+10                   41.255605   58.744395
+11                   57.425743   42.574257
+12                   37.301587   62.698413
+13                   53.693182   46.306818
+14                   49.319728   50.680272
+15                   84.210526   15.789474
+16                   30.815710   69.184290
+17                   57.062147   42.937853
+18                   65.299685   34.700315
+19                   40.909091   59.090909
+20                   54.702970   45.297030
+21                   48.148148   51.851852
+22                   46.808511   53.191489
+23                    0.000000  100.000000
+24                   51.449275   48.550725
+25                   47.682119   52.317881
+26                   38.000000   62.000000
+27                   18.181818   81.818182
+28                   57.894737   42.105263
+29                   45.205479   54.794521
+30                    0.000000  100.000000
+31                  100.000000    0.000000
+32                   42.857143   57.142857
+33                  100.000000    0.000000
+34                  100.000000    0.000000
+35                    6.060606   93.939394
+36                   41.666667   58.333333
+37                  100.000000    0.000000
+38                  100.000000    0.000000
+
+Dominance Check (>60%):
+  Cluster 0: Dominant category 'Low Risk' (75.6%)
+  Cluster 1: Dominant category 'Low Risk' (67.2%)
+  Cluster 2: Dominant category 'Low Risk' (72.6%)
+  Cluster 4: Dominant category 'Low Risk' (87.5%)
+  Cluster 6: Dominant category 'Low Risk' (66.7%)
+  Cluster 8: Dominant category 'High Risk' (60.8%)
+  Cluster 9: Dominant category 'Low Risk' (100.0%)
+  Cluster 12: Dominant category 'Low Risk' (62.7%)
+  Cluster 15: Dominant category 'High Risk' (84.2%)
+  Cluster 16: Dominant category 'Low Risk' (69.2%)
+  Cluster 18: Dominant category 'High Risk' (65.3%)
+  Cluster 23: Dominant category 'Low Risk' (100.0%)
+  Cluster 26: Dominant category 'Low Risk' (62.0%)
+  Cluster 27: Dominant category 'Low Risk' (81.8%)
+  Cluster 30: Dominant category 'Low Risk' (100.0%)
+  Cluster 31: Dominant category 'High Risk' (100.0%)
+  Cluster 33: Dominant category 'High Risk' (100.0%)
+  Cluster 34: Dominant category 'High Risk' (100.0%)
+  Cluster 35: Dominant category 'Low Risk' (93.9%)
+  Cluster 37: Dominant category 'High Risk' (100.0%)
+  Cluster 38: Dominant category 'High Risk' (100.0%)
+--------------------
+Variable: action_cat (Percentages by Cluster)
+action_cat      Passive  Proactive
+cluster_dbscan                    
+0                   0.0      100.0
+1                 100.0        0.0
+2                 100.0        0.0
+3                 100.0        0.0
+4                   0.0      100.0
+5                 100.0        0.0
+6                 100.0        0.0
+7                 100.0        0.0
+8                 100.0        0.0
+9                 100.0        0.0
+10                100.0        0.0
+11                  0.0      100.0
+12                100.0        0.0
+13                  0.0      100.0
+14                100.0        0.0
+15                  0.0      100.0
+16                  0.0      100.0
+17                100.0        0.0
+18                  0.0      100.0
+19                100.0        0.0
+20                100.0        0.0
+21                100.0        0.0
+22                100.0        0.0
+23                100.0        0.0
+24                  0.0      100.0
+25                100.0        0.0
+26                  0.0      100.0
+27                  0.0      100.0
+28                  0.0      100.0
+29                100.0        0.0
+30                  0.0      100.0
+31                  0.0      100.0
+32                  0.0      100.0
+33                  0.0      100.0
+34                100.0        0.0
+35                100.0        0.0
+36                  0.0      100.0
+37                100.0        0.0
+38                  0.0      100.0
+
+Dominance Check (>60%):
+  Cluster 0: Dominant category 'Proactive' (100.0%)
+  Cluster 1: Dominant category 'Passive' (100.0%)
+  Cluster 2: Dominant category 'Passive' (100.0%)
+  Cluster 3: Dominant category 'Passive' (100.0%)
+  Cluster 4: Dominant category 'Proactive' (100.0%)
+  Cluster 5: Dominant category 'Passive' (100.0%)
+  Cluster 6: Dominant category 'Passive' (100.0%)
+  Cluster 7: Dominant category 'Passive' (100.0%)
+  Cluster 8: Dominant category 'Passive' (100.0%)
+  Cluster 9: Dominant category 'Passive' (100.0%)
+  Cluster 10: Dominant category 'Passive' (100.0%)
+  Cluster 11: Dominant category 'Proactive' (100.0%)
+  Cluster 12: Dominant category 'Passive' (100.0%)
+  Cluster 13: Dominant category 'Proactive' (100.0%)
+  Cluster 14: Dominant category 'Passive' (100.0%)
+  Cluster 15: Dominant category 'Proactive' (100.0%)
+  Cluster 16: Dominant category 'Proactive' (100.0%)
+  Cluster 17: Dominant category 'Passive' (100.0%)
+  Cluster 18: Dominant category 'Proactive' (100.0%)
+  Cluster 19: Dominant category 'Passive' (100.0%)
+  Cluster 20: Dominant category 'Passive' (100.0%)
+  Cluster 21: Dominant category 'Passive' (100.0%)
+  Cluster 22: Dominant category 'Passive' (100.0%)
+  Cluster 23: Dominant category 'Passive' (100.0%)
+  Cluster 24: Dominant category 'Proactive' (100.0%)
+  Cluster 25: Dominant category 'Passive' (100.0%)
+  Cluster 26: Dominant category 'Proactive' (100.0%)
+  Cluster 27: Dominant category 'Proactive' (100.0%)
+  Cluster 28: Dominant category 'Proactive' (100.0%)
+  Cluster 29: Dominant category 'Passive' (100.0%)
+  Cluster 30: Dominant category 'Proactive' (100.0%)
+  Cluster 31: Dominant category 'Proactive' (100.0%)
+  Cluster 32: Dominant category 'Proactive' (100.0%)
+  Cluster 33: Dominant category 'Proactive' (100.0%)
+  Cluster 34: Dominant category 'Passive' (100.0%)
+  Cluster 35: Dominant category 'Passive' (100.0%)
+  Cluster 36: Dominant category 'Proactive' (100.0%)
+  Cluster 37: Dominant category 'Passive' (100.0%)
+  Cluster 38: Dominant category 'Proactive' (100.0%)
+--------------------
+
+========================================
+
+ALGORITHM: GMM
+----------------------------------------
+Variable: awareness_cat (Percentages by Cluster)
+awareness_cat  High Awareness  Low Awareness
+cluster_gmm                                 
+0                   16.258800      83.741200
+1                   88.691589      11.308411
+2                   77.584204      22.415796
+3                    0.000000     100.000000
+
+Dominance Check (>60%):
+  Cluster 0: Dominant category 'Low Awareness' (83.7%)
+  Cluster 1: Dominant category 'High Awareness' (88.7%)
+  Cluster 2: Dominant category 'High Awareness' (77.6%)
+  Cluster 3: Dominant category 'Low Awareness' (100.0%)
+--------------------
+Variable: lifestyle_risk_cat (Percentages by Cluster)
+lifestyle_risk_cat  High Risk   Low Risk
+cluster_gmm                             
+0                   49.949715  50.050285
+1                   56.962617  43.037383
+2                   33.333333  66.666667
+3                   47.826087  52.173913
+
+Dominance Check (>60%):
+  Cluster 2: Dominant category 'Low Risk' (66.7%)
+--------------------
+Variable: action_cat (Percentages by Cluster)
+action_cat     Passive  Proactive
+cluster_gmm                      
+0            61.582300  38.417700
+1            45.420561  54.579439
+2            39.605110  60.394890
+3            77.173913  22.826087
+
+Dominance Check (>60%):
+  Cluster 0: Dominant category 'Passive' (61.6%)
+  Cluster 2: Dominant category 'Proactive' (60.4%)
+  Cluster 3: Dominant category 'Passive' (77.2%)
+--------------------
+
+========================================
+
+ALGORITHM: Spectral
+----------------------------------------
+Variable: awareness_cat (Percentages by Cluster)
+awareness_cat     High Awareness  Low Awareness
+cluster_spectral                               
+0                      80.809249      19.190751
+1                      15.971755      84.028245
+2                     100.000000       0.000000
+3                      80.330124      19.669876
+
+Dominance Check (>60%):
+  Cluster 0: Dominant category 'High Awareness' (80.8%)
+  Cluster 1: Dominant category 'Low Awareness' (84.0%)
+  Cluster 2: Dominant category 'High Awareness' (100.0%)
+  Cluster 3: Dominant category 'High Awareness' (80.3%)
+--------------------
+Variable: lifestyle_risk_cat (Percentages by Cluster)
+lifestyle_risk_cat  High Risk   Low Risk
+cluster_spectral                        
+0                   49.942197  50.057803
+1                   50.033625  49.966375
+2                   30.000000  70.000000
+3                   50.137552  49.862448
+
+Dominance Check (>60%):
+  Cluster 2: Dominant category 'Low Risk' (70.0%)
+--------------------
+Variable: action_cat (Percentages by Cluster)
+action_cat           Passive   Proactive
+cluster_spectral                        
+0                   0.000000  100.000000
+1                  61.802286   38.197714
+2                   0.000000  100.000000
+3                 100.000000    0.000000
+
+Dominance Check (>60%):
+  Cluster 0: Dominant category 'Proactive' (100.0%)
+  Cluster 1: Dominant category 'Passive' (61.8%)
+  Cluster 2: Dominant category 'Proactive' (100.0%)
+  Cluster 3: Dominant category 'Passive' (100.0%)
+--------------------
+
+========================================
+

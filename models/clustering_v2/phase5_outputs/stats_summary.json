@@ -1,0 +1,131 @@
+{
+    "descriptive_stats": {
+        "awareness_score": {
+            "count": 6168.0,
+            "mean": 4.639027237354086,
+            "std": 2.530242733382885,
+            "min": 0.15,
+            "25%": 2.29,
+            "50%": 5.04,
+            "75%": 6.95,
+            "max": 9.47,
+            "skew": -0.20632185450542048
+        },
+        "lifestyle_risk_score": {
+            "count": 6168.0,
+            "mean": -3.22555068114183e-17,
+            "std": 0.519115260030334,
+            "min": -1.249972963646204,
+            "25%": -0.2989666321220304,
+            "50%": -0.1014702138219552,
+            "75%": 0.3639825498303361,
+            "max": 2.870399141717284,
+            "skew": 0.454808018860218
+        },
+        "score_action_first_symptom": {
+            "count": 6168.0,
+            "mean": 1.3398184176394292,
+            "std": 0.6908961846504951,
+            "min": 0.0,
+            "25%": 1.0,
+            "50%": 1.0,
+            "75%": 2.0,
+            "max": 2.0,
+            "skew": -0.5641714684028574
+        },
+        "score_urgency": {
+            "count": 6168.0,
+            "mean": 1.0327496757457848,
+            "std": 0.9995446154221684,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 2.0,
+            "75%": 2.0,
+            "max": 2.0,
+            "skew": -0.0655504474841325
+        },
+        "age": {
+            "count": 0.0,
+            "mean": "NaN",
+            "std": "NaN",
+            "min": "NaN",
+            "25%": "NaN",
+            "50%": "NaN",
+            "75%": "NaN",
+            "max": "NaN",
+            "skew": "NaN"
+        }
+    },
+    "correlations": {
+        "awareness_score": {
+            "awareness_score": 1.0,
+            "lifestyle_risk_score": 0.013012375444795268,
+            "score_action_first_symptom": 0.41239982204555736,
+            "score_urgency": 0.705566857067612,
+            "age": "NaN"
+        },
+        "lifestyle_risk_score": {
+            "awareness_score": 0.013012375444795268,
+            "lifestyle_risk_score": 1.0,
+            "score_action_first_symptom": 0.0015319346017033592,
+            "score_urgency": -0.010659164649490517,
+            "age": "NaN"
+        },
+        "score_action_first_symptom": {
+            "awareness_score": 0.41239982204555736,
+            "lifestyle_risk_score": 0.0015319346017033592,
+            "score_action_first_symptom": 1.0,
+            "score_urgency": 0.254849365484952,
+            "age": "NaN"
+        },
+        "score_urgency": {
+            "awareness_score": 0.705566857067612,
+            "lifestyle_risk_score": -0.010659164649490517,
+            "score_action_first_symptom": 0.254849365484952,
+            "score_urgency": 1.0,
+            "age": "NaN"
+        },
+        "age": {
+            "awareness_score": "NaN",
+            "lifestyle_risk_score": "NaN",
+            "score_action_first_symptom": "NaN",
+            "score_urgency": "NaN",
+            "age": "NaN"
+        }
+    },
+    "hypothesis_tests": {
+        "H1": {
+            "chi2_p": 1.8069585184000534e-40,
+            "odds_ratio": 1.9894271981461291,
+            "ci_lower": 1.7973453828897852,
+            "ci_upper": 2.202036745080205,
+            "p_logit": 3.1220524114221734e-40
+        },
+        "H2": {
+            "chi2_p": 0.7400317460979904,
+            "t_test_p": 0.9390825602354759,
+            "t_stat": 0.07642613121130454
+        },
+        "H3": {
+            "chi2_p": 2.059874111180242e-05
+        },
+        "H4": {
+            "awareness_score": {
+                "f_stat": 5794.483003776608,
+                "p_value": 0.0
+            },
+            "lifestyle_risk_score": {
+                "f_stat": 251.45628798302704,
+                "p_value": 6.046021772140838e-154
+            },
+            "score_action_first_symptom": {
+                "f_stat": 889.7069370573487,
+                "p_value": 0.0
+            },
+            "score_urgency": {
+                "f_stat": 15371.388519865408,
+                "p_value": 0.0
+            }
+        }
+    }
+}

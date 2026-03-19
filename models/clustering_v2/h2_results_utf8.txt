@@ -1,0 +1,55 @@
+﻿============================================================
+PHASE 2: TESTING HYPOTHESIS 2 (H2)
+H2: Older Individuals -> More Cautious Behavior
+============================================================
+
+STEP 2: CONTINGENCY TABLE (Age Group vs Action)
+---------------------------------------------
+action_cat      Passive  Proactive
+age_group_4cat                    
+18-25               832        715
+26-40               772        638
+41-60              1119        960
+60+                 569        563
+
+STEP 3: CHI-SQUARE TEST
+------------------------------
+Chi-square statistic: 5.7445
+p-value:              0.1247
+Interpretation: No significant association found (p >= 0.05).
+
+STEP 4: T-TEST (Urgency Score: Older vs Younger)
+---------------------------------------------
+Mean Urgency (Older 60+):    1.0318
+Mean Urgency (Younger 18-25): 0.9619
+t-statistic:                 1.7886
+p-value:                     0.0738
+Interpretation: No statistically significant difference in urgency scores between age groups.
+
+STEP 5: LOGISTIC REGRESSION
+------------------------------
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:          action_binary   No. Observations:                 6168
+Model:                          Logit   Df Residuals:                     6166
+Method:                           MLE   Df Model:                            1
+Date:                Sun, 22 Feb 2026   Pseudo R-squ.:               0.0003100
+Time:                        12:59:05   Log-Likelihood:                -4260.0
+converged:                       True   LL-Null:                       -4261.3
+Covariance Type:            nonrobust   LLR p-value:                    0.1041
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.2315      0.065     -3.583      0.000      -0.358      -0.105
+age_enc_v2     0.0393      0.024      1.625      0.104      -0.008       0.087
+==============================================================================
+
+Logistic P-value for Age: 0.1041
+Coefficient for Age:      0.0393
+
+============================================================
+STEP 6: FINAL CONCLUSION
+============================================================
+CONCLUSION: Hypothesis 2 (H2) is NOT SUPPORTED.
+Age does not appear to be a significant positive predictor of cautious/proactive behavior in this dataset.
+============================================================
