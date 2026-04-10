@@ -1,15 +1,15 @@
 🔷 PHASE 4: TRIANGULATION & HYPOTHESIS VALIDATION (PHASE 4_2)
 
 🔹 H1: Awareness vs Lifestyle Risk
-1️⃣ Statistical Evidence: Chi-square test (p = 1.03121e-01)
+1️⃣ Statistical Evidence: Chi-square test (p = 8.69255e-02)
 2️⃣ Supporting Cluster Pattern (K-Means %):
-awareness_cat      High Awareness            Low Awareness           
-lifestyle_risk_cat      High Risk   Low Risk     High Risk   Low Risk
-cluster_kmeans                                                       
-0                       22.453704  61.033951      4.861111  11.651235
-1                       16.888298  13.497340     35.239362  34.375000
-2                        0.000000   0.000000     48.610253  51.389747
-3                       57.918811  28.530589      8.347627   5.202973
+awareness_cat      High Awareness           Low Awareness            Moderate Awareness           
+lifestyle_risk_cat      High Risk  Low Risk     High Risk   Low Risk          High Risk   Low Risk
+cluster_kmeans                                                                                    
+0                        0.771605  2.391975      9.336420  24.768519          17.206790  45.524691
+1                        0.000000  0.000000     42.819149  41.755319           9.308511   6.117021
+2                        0.000000  0.000000     48.610253  51.389747           0.000000   0.000000
+3                        2.287021  1.029160     20.640366  12.292739          43.339051  20.411664
 Interpretation: Significant association between awareness and lifestyle risk categories.
 
 🔹 H2: Age vs Cautious Health Behavior (Action & Urgency)
@@ -27,17 +27,18 @@ cluster_kmeans
 Interpretation: Health behavior significantly varies across age groups.
 
 🔹 H3: Symptom Awareness but Delayed Medical Consultation (Cognitive Paradox)
-1️⃣ Statistical Evidence: Chi-square test Awareness vs Action (p = 1.80696e-40)
+1️⃣ Statistical Evidence: Chi-square test Awareness vs Action (p = 6.86864e-59)
 2️⃣ Supporting Cluster Pattern (Identifying Paradox Groups):
-awareness_cat  High Awareness            Low Awareness           
-action_cat            Passive  Proactive       Passive  Proactive
-cluster_kmeans                                                   
-0                   38.966049  44.521605      5.324074  11.188272
-1                   12.566489  17.819149     25.598404  44.015957
-2                    0.000000   0.000000     86.658431  13.341569
-3                   38.479131  47.970269      3.887936   9.662664
+awareness_cat  High Awareness           Low Awareness            Moderate Awareness           
+action_cat            Passive Proactive       Passive  Proactive            Passive  Proactive
+cluster_kmeans                                                                                
+0                    0.154321  3.009259     15.663580  18.441358          28.472222  34.259259
+1                    0.000000  0.000000     33.377660  51.196809           4.787234  10.638298
+2                    0.000000  0.000000     86.658431  13.341569           0.000000   0.000000
+3                    0.114351  3.201830     14.408233  18.524871          27.844483  35.906232
 Interpretation: Presence of clusters with High Awareness but Passive Action confirms the paradox.
 
 🔹 H4: Meaningful Behavioral Segmentation
 1️⃣ Statistical Evidence: ANOVA Cluster vs Awareness Score (F = 5794.48, p = 0.00000e+00)
 2️⃣ Supporting Cluster Pattern: Consistent 4-cluster structure with clear behavioral dominance (>60%).
+

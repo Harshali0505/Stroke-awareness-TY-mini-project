@@ -24,8 +24,8 @@ import os
 # ─────────────────────────────────────────────
 # PATHS
 # ─────────────────────────────────────────────
-DATA_PATH = r"C:\Projects\Stroke-awareness-TY-mini-project\clustering_v2\clustered_input_scaled.csv"
-OUTPUT_DIR = r"C:\Projects\Stroke-awareness-TY-mini-project\clustering_v2"
+DATA_PATH = r"C:\Projects\Stroke-awareness-TY-mini-project\models\clustering_v2\clustered_input_scaled.csv"
+OUTPUT_DIR = r"C:\Projects\Stroke-awareness-TY-mini-project\models\clustering_v2"
 
 # ─────────────────────────────────────────────
 # LOAD DATA

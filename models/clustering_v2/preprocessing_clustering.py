@@ -25,8 +25,8 @@ import os
 # ─────────────────────────────────────────────
 # PATHS
 # ─────────────────────────────────────────────
-INPUT_PATH  = r"C:\Projects\Stroke-awareness-TY-mini-project\clustering_v2\phase1_output.csv"
-OUTPUT_PATH = r"C:\Projects\Stroke-awareness-TY-mini-project\clustering_v2\clustered_input_scaled.csv"
+INPUT_PATH  = r"C:\Projects\Stroke-awareness-TY-mini-project\models\clustering_v2\phase1_output.csv"
+OUTPUT_PATH = r"C:\Projects\Stroke-awareness-TY-mini-project\models\clustering_v2\clustered_input_scaled.csv"
 
 # ─────────────────────────────────────────────
 # LOAD DATA
@@ -40,7 +40,6 @@ df = pd.read_csv(INPUT_PATH)
 # Define features for clustering
 features = [
     "awareness_score",
-    "symptom_awareness_score",
     "lifestyle_risk_score",
     "score_urgency",
     "age_enc_v2",

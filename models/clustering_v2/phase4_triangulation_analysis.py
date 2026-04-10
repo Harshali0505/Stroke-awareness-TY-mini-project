@@ -4,7 +4,7 @@ from scipy.stats import chi2_contingency, f_oneway
 import os
 
 # Paths
-results_dir = r"c:\Projects\Stroke-awareness-TY-mini-project\clustering_v2"
+results_dir = r"C:\Projects\Stroke-awareness-TY-mini-project\models\clustering_v2"
 input_file = os.path.join(results_dir, "kmeans_results.csv")
 output_file = os.path.join(results_dir, "phase4_2triangulation.txt")
 

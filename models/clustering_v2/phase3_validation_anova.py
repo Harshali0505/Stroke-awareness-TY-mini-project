@@ -3,7 +3,7 @@ from scipy.stats import f_oneway, kruskal, shapiro
 import os
 
 # Define file paths and algorithms
-results_dir = r"c:\Projects\Stroke-awareness-TY-mini-project\clustering_v2"
+results_dir = r"C:\Projects\Stroke-awareness-TY-mini-project\models\clustering_v2"
 algorithms = {
     "K-Means": "kmeans_results.csv",
     "Hierarchical": "hierarchical_results.csv",

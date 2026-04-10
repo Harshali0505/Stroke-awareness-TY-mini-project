@@ -9,7 +9,7 @@ sns.set_theme(style="whitegrid", palette="muted")
 plt.rcParams['figure.figsize'] = (10, 6)
 
 # Paths
-results_dir = r"c:\Projects\Stroke-awareness-TY-mini-project\clustering_v2"
+results_dir = r"C:\Projects\Stroke-awareness-TY-mini-project\models\clustering_v2"
 input_file = os.path.join(results_dir, "kmeans_results.csv")
 output_dir = os.path.join(results_dir, "phase5_outputs")
 os.makedirs(output_dir, exist_ok=True)

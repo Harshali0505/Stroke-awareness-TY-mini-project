@@ -20,7 +20,7 @@ import os
 # ─────────────────────────────────────────────
 # PATHS
 # ─────────────────────────────────────────────
-BASE_DIR = r"C:\Projects\Stroke-awareness-TY-mini-project\clustering_v2"
+BASE_DIR = r"C:\Projects\Stroke-awareness-TY-mini-project\models\clustering_v2"
 FILES = {
     "K-Means": "kmeans_results.csv",
     "Hierarchical": "hierarchical_results.csv",
