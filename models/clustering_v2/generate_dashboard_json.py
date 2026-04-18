@@ -79,10 +79,10 @@ def generate_json():
 
     # 5. Persona Data
     archetypes = {
-        0: {"subtitle": "Knowledgeable & Healthy", "severity": "green", "profile": "High knowledge, low lifestyle risk."},
-        1: {"subtitle": "Willing but Uninformed", "severity": "blue", "profile": "Low knowledge, but takes quick action."},
-        2: {"subtitle": "High-Risk & Passive", "severity": "red", "profile": "Low awareness and high risk behaviors."},
-        3: {"subtitle": "Knowledgeable but Risky", "severity": "amber", "profile": "High knowledge, but high lifestyle risk."}
+        0: {"subtitle": "The Hidden Risk Group", "severity": "red", "profile": "Older age group with high lifestyle risk and zero perceived urgency."},
+        1: {"subtitle": "The Behavior Gap Group", "severity": "amber", "profile": "High awareness and urgency, but fails to adopt healthy lifestyle habits."},
+        2: {"subtitle": "The Ideal Group", "severity": "green", "profile": "Younger group with high awareness, low risk, and proactive response habits."},
+        3: {"subtitle": "The Most Critical Group", "severity": "red", "profile": "Very low awareness and almost zero urgency or action propensity."}
     }
     cluster_counts = df_merged['cluster_kmeans'].value_counts().sort_index().to_dict()
     personas = []
