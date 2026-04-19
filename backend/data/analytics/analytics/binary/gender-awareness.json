@@ -1,0 +1,30 @@
+[
+  {
+    "gender": "Female",
+    "category": "High Awareness",
+    "count": 1842,
+    "total": 3562,
+    "percentage": 51.71
+  },
+  {
+    "gender": "Female",
+    "category": "Low Awareness",
+    "count": 1720,
+    "total": 3562,
+    "percentage": 48.29
+  },
+  {
+    "gender": "Male",
+    "category": "High Awareness",
+    "count": 1261,
+    "total": 2606,
+    "percentage": 48.39
+  },
+  {
+    "gender": "Male",
+    "category": "Low Awareness",
+    "count": 1345,
+    "total": 2606,
+    "percentage": 51.61
+  }
+]

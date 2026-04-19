@@ -1,0 +1,32 @@
+[
+  {
+    "source": "healthcare provider",
+    "count": 1849,
+    "percentage": 29.98
+  },
+  {
+    "source": "media (tv, radio, newspapers, etc.)",
+    "count": 1532,
+    "percentage": 24.84
+  },
+  {
+    "source": "educational materials (brochures, websites, etc.)",
+    "count": 930,
+    "percentage": 15.08
+  },
+  {
+    "source": "family/friends",
+    "count": 669,
+    "percentage": 10.85
+  },
+  {
+    "source": "not aware",
+    "count": 623,
+    "percentage": 10.1
+  },
+  {
+    "source": "other",
+    "count": 565,
+    "percentage": 9.16
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "gender": "Female",
+    "category": "High Awareness",
+    "count": 70,
+    "total": 3562,
+    "percentage": 1.97
+  },
+  {
+    "gender": "Female",
+    "category": "Low Awareness",
+    "count": 2213,
+    "total": 3562,
+    "percentage": 62.13
+  },
+  {
+    "gender": "Female",
+    "category": "Moderate Awareness",
+    "count": 1279,
+    "total": 3562,
+    "percentage": 35.91
+  },
+  {
+    "gender": "Male",
+    "category": "High Awareness",
+    "count": 29,
+    "total": 2606,
+    "percentage": 1.11
+  },
+  {
+    "gender": "Male",
+    "category": "Low Awareness",
+    "count": 1696,
+    "total": 2606,
+    "percentage": 65.08
+  },
+  {
+    "gender": "Male",
+    "category": "Moderate Awareness",
+    "count": 881,
+    "total": 2606,
+    "percentage": 33.81
+  }
+]

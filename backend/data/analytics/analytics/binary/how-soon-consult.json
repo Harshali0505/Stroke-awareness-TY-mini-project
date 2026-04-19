@@ -1,0 +1,32 @@
+[
+  {
+    "timeframe": "Immediately",
+    "count": 2876,
+    "percentage": 46.63
+  },
+  {
+    "timeframe": "Within a day",
+    "count": 2512,
+    "percentage": 40.73
+  },
+  {
+    "timeframe": "Within a week",
+    "count": 627,
+    "percentage": 10.17
+  },
+  {
+    "timeframe": "I would not consult a specialist",
+    "count": 71,
+    "percentage": 1.15
+  },
+  {
+    "timeframe": "Within a month",
+    "count": 43,
+    "percentage": 0.7
+  },
+  {
+    "timeframe": "Other",
+    "count": 39,
+    "percentage": 0.63
+  }
+]

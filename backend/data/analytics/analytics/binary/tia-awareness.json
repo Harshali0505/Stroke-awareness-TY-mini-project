@@ -1,0 +1,30 @@
+[
+  {
+    "tia": 0.0,
+    "category": "High Awareness",
+    "count": 1030,
+    "total": 2737,
+    "percentage": 37.63
+  },
+  {
+    "tia": 0.0,
+    "category": "Low Awareness",
+    "count": 1707,
+    "total": 2737,
+    "percentage": 62.37
+  },
+  {
+    "tia": 1.0,
+    "category": "High Awareness",
+    "count": 536,
+    "total": 1357,
+    "percentage": 39.5
+  },
+  {
+    "tia": 1.0,
+    "category": "Low Awareness",
+    "count": 821,
+    "total": 1357,
+    "percentage": 60.5
+  }
+]

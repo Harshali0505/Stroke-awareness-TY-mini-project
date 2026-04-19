@@ -1,0 +1,30 @@
+[
+  {
+    "smoking": "no",
+    "category": "High Awareness",
+    "count": 2169,
+    "total": 4324,
+    "percentage": 50.16
+  },
+  {
+    "smoking": "no",
+    "category": "Low Awareness",
+    "count": 2155,
+    "total": 4324,
+    "percentage": 49.84
+  },
+  {
+    "smoking": "yes",
+    "category": "High Awareness",
+    "count": 922,
+    "total": 1797,
+    "percentage": 51.31
+  },
+  {
+    "smoking": "yes",
+    "category": "Low Awareness",
+    "count": 875,
+    "total": 1797,
+    "percentage": 48.69
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "location": "kharghar",
+    "category": "High Awareness",
+    "count": 1,
+    "total": 7,
+    "percentage": 14.29
+  },
+  {
+    "location": "kharghar",
+    "category": "Low Awareness",
+    "count": 6,
+    "total": 7,
+    "percentage": 85.71
+  },
+  {
+    "location": "mumbai",
+    "category": "High Awareness",
+    "count": 10,
+    "total": 32,
+    "percentage": 31.25
+  },
+  {
+    "location": "mumbai",
+    "category": "Low Awareness",
+    "count": 22,
+    "total": 32,
+    "percentage": 68.75
+  },
+  {
+    "location": "panvel",
+    "category": "Low Awareness",
+    "count": 3,
+    "total": 3,
+    "percentage": 100.0
+  },
+  {
+    "location": "sector 19 vashi",
+    "category": "Low Awareness",
+    "count": 1,
+    "total": 1,
+    "percentage": 100.0
+  },
+  {
+    "location": "thane",
+    "category": "High Awareness",
+    "count": 3092,
+    "total": 6125,
+    "percentage": 50.48
+  },
+  {
+    "location": "thane",
+    "category": "Low Awareness",
+    "count": 3033,
+    "total": 6125,
+    "percentage": 49.52
+  }
+]

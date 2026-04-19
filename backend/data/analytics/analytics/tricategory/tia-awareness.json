@@ -1,0 +1,44 @@
+[
+  {
+    "tia": 0.0,
+    "category": "High Awareness",
+    "count": 31,
+    "total": 2737,
+    "percentage": 1.13
+  },
+  {
+    "tia": 0.0,
+    "category": "Low Awareness",
+    "count": 1995,
+    "total": 2737,
+    "percentage": 72.89
+  },
+  {
+    "tia": 0.0,
+    "category": "Moderate Awareness",
+    "count": 711,
+    "total": 2737,
+    "percentage": 25.98
+  },
+  {
+    "tia": 1.0,
+    "category": "High Awareness",
+    "count": 18,
+    "total": 1357,
+    "percentage": 1.33
+  },
+  {
+    "tia": 1.0,
+    "category": "Low Awareness",
+    "count": 958,
+    "total": 1357,
+    "percentage": 70.6
+  },
+  {
+    "tia": 1.0,
+    "category": "Moderate Awareness",
+    "count": 381,
+    "total": 1357,
+    "percentage": 28.08
+  }
+]

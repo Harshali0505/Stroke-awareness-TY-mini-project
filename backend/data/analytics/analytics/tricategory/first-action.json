@@ -1,0 +1,27 @@
+[
+  {
+    "action": "emergency_services",
+    "count": 1609,
+    "percentage": 26.09
+  },
+  {
+    "action": "unaware",
+    "count": 1403,
+    "percentage": 22.75
+  },
+  {
+    "action": "family/friend",
+    "count": 1366,
+    "percentage": 22.15
+  },
+  {
+    "action": "doctor",
+    "count": 1252,
+    "percentage": 20.3
+  },
+  {
+    "action": "hospital",
+    "count": 538,
+    "percentage": 8.72
+  }
+]

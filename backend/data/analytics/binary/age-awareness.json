@@ -1,0 +1,58 @@
+[
+  {
+    "age": "0-25",
+    "category": "High Awareness",
+    "count": 699,
+    "total": 1547,
+    "percentage": 45.18
+  },
+  {
+    "age": "0-25",
+    "category": "Low Awareness",
+    "count": 848,
+    "total": 1547,
+    "percentage": 54.82
+  },
+  {
+    "age": "26-40",
+    "category": "High Awareness",
+    "count": 758,
+    "total": 1410,
+    "percentage": 53.76
+  },
+  {
+    "age": "26-40",
+    "category": "Low Awareness",
+    "count": 652,
+    "total": 1410,
+    "percentage": 46.24
+  },
+  {
+    "age": "41-60",
+    "category": "High Awareness",
+    "count": 1074,
+    "total": 2079,
+    "percentage": 51.66
+  },
+  {
+    "age": "41-60",
+    "category": "Low Awareness",
+    "count": 1005,
+    "total": 2079,
+    "percentage": 48.34
+  },
+  {
+    "age": "60+",
+    "category": "High Awareness",
+    "count": 572,
+    "total": 1132,
+    "percentage": 50.53
+  },
+  {
+    "age": "60+",
+    "category": "Low Awareness",
+    "count": 560,
+    "total": 1132,
+    "percentage": 49.47
+  }
+]

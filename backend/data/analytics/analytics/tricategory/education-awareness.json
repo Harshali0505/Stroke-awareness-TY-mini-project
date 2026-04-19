@@ -1,0 +1,107 @@
+[
+  {
+    "educational_level": "graduate",
+    "category": "High Awareness",
+    "count": 30,
+    "total": 2079,
+    "percentage": 1.44
+  },
+  {
+    "educational_level": "graduate",
+    "category": "Low Awareness",
+    "count": 1313,
+    "total": 2079,
+    "percentage": 63.16
+  },
+  {
+    "educational_level": "graduate",
+    "category": "Moderate Awareness",
+    "count": 736,
+    "total": 2079,
+    "percentage": 35.4
+  },
+  {
+    "educational_level": "high school",
+    "category": "High Awareness",
+    "count": 47,
+    "total": 3149,
+    "percentage": 1.49
+  },
+  {
+    "educational_level": "high school",
+    "category": "Low Awareness",
+    "count": 1970,
+    "total": 3149,
+    "percentage": 62.56
+  },
+  {
+    "educational_level": "high school",
+    "category": "Moderate Awareness",
+    "count": 1132,
+    "total": 3149,
+    "percentage": 35.95
+  },
+  {
+    "educational_level": "other",
+    "category": "High Awareness",
+    "count": 4,
+    "total": 337,
+    "percentage": 1.19
+  },
+  {
+    "educational_level": "other",
+    "category": "Low Awareness",
+    "count": 211,
+    "total": 337,
+    "percentage": 62.61
+  },
+  {
+    "educational_level": "other",
+    "category": "Moderate Awareness",
+    "count": 122,
+    "total": 337,
+    "percentage": 36.2
+  },
+  {
+    "educational_level": "speciality",
+    "category": "High Awareness",
+    "count": 6,
+    "total": 151,
+    "percentage": 3.97
+  },
+  {
+    "educational_level": "speciality",
+    "category": "Low Awareness",
+    "count": 105,
+    "total": 151,
+    "percentage": 69.54
+  },
+  {
+    "educational_level": "speciality",
+    "category": "Moderate Awareness",
+    "count": 40,
+    "total": 151,
+    "percentage": 26.49
+  },
+  {
+    "educational_level": "undergraduate",
+    "category": "High Awareness",
+    "count": 12,
+    "total": 452,
+    "percentage": 2.65
+  },
+  {
+    "educational_level": "undergraduate",
+    "category": "Low Awareness",
+    "count": 310,
+    "total": 452,
+    "percentage": 68.58
+  },
+  {
+    "educational_level": "undergraduate",
+    "category": "Moderate Awareness",
+    "count": 130,
+    "total": 452,
+    "percentage": 28.76
+  }
+]

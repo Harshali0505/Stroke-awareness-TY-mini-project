@@ -1,0 +1,30 @@
+[
+  {
+    "alcohol_consumption": "no",
+    "category": "High Awareness",
+    "count": 2270,
+    "total": 4513,
+    "percentage": 50.3
+  },
+  {
+    "alcohol_consumption": "no",
+    "category": "Low Awareness",
+    "count": 2243,
+    "total": 4513,
+    "percentage": 49.7
+  },
+  {
+    "alcohol_consumption": "yes",
+    "category": "High Awareness",
+    "count": 797,
+    "total": 1546,
+    "percentage": 51.55
+  },
+  {
+    "alcohol_consumption": "yes",
+    "category": "Low Awareness",
+    "count": 749,
+    "total": 1546,
+    "percentage": 48.45
+  }
+]

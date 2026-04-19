@@ -1,0 +1,86 @@
+[
+  {
+    "symptom": "Sudden confusion / trouble speaking",
+    "response": "Yes",
+    "count": 4448,
+    "percentage": 72.11,
+    "total": 6168
+  },
+  {
+    "symptom": "Sudden confusion / trouble speaking",
+    "response": "Maybe",
+    "count": 1052,
+    "percentage": 17.06,
+    "total": 6168
+  },
+  {
+    "symptom": "Sudden confusion / trouble speaking",
+    "response": "No",
+    "count": 668,
+    "percentage": 10.83,
+    "total": 6168
+  },
+  {
+    "symptom": "Sudden numbness or weakness of face/arm/leg",
+    "response": "Yes",
+    "count": 4437,
+    "percentage": 71.94,
+    "total": 6168
+  },
+  {
+    "symptom": "Sudden numbness or weakness of face/arm/leg",
+    "response": "Maybe",
+    "count": 979,
+    "percentage": 15.87,
+    "total": 6168
+  },
+  {
+    "symptom": "Sudden numbness or weakness of face/arm/leg",
+    "response": "No",
+    "count": 752,
+    "percentage": 12.19,
+    "total": 6168
+  },
+  {
+    "symptom": "Trouble seeing in one or both eyes",
+    "response": "Yes",
+    "count": 4383,
+    "percentage": 71.06,
+    "total": 6168
+  },
+  {
+    "symptom": "Trouble seeing in one or both eyes",
+    "response": "Maybe",
+    "count": 1067,
+    "percentage": 17.3,
+    "total": 6168
+  },
+  {
+    "symptom": "Trouble seeing in one or both eyes",
+    "response": "No",
+    "count": 718,
+    "percentage": 11.64,
+    "total": 6168
+  },
+  {
+    "symptom": "Sudden nosebleed",
+    "response": "Yes",
+    "count": 4374,
+    "percentage": 70.91,
+    "total": 6168
+  },
+  {
+    "symptom": "Sudden nosebleed",
+    "response": "Maybe",
+    "count": 1000,
+    "percentage": 16.21,
+    "total": 6168
+  },
+  {
+    "symptom": "Sudden nosebleed",
+    "response": "No",
+    "count": 794,
+    "percentage": 12.87,
+    "total": 6168
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "response": "Yes",
+    "count": 3882,
+    "percentage": 62.94
+  },
+  {
+    "response": "No",
+    "count": 2245,
+    "percentage": 36.4
+  },
+  {
+    "response": "Maybe",
+    "count": 41,
+    "percentage": 0.66
+  }
+]

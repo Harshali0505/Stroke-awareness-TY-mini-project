@@ -1,0 +1,37 @@
+[
+  {
+    "symptom": "vision_problem",
+    "count": 3505,
+    "percentage": 56.83
+  },
+  {
+    "symptom": "speech_language_problem",
+    "count": 3453,
+    "percentage": 55.98
+  },
+  {
+    "symptom": "balance_coordination_problem",
+    "count": 3450,
+    "percentage": 55.93
+  },
+  {
+    "symptom": "motor_weakness",
+    "count": 3101,
+    "percentage": 50.28
+  },
+  {
+    "symptom": "severe_headache",
+    "count": 2848,
+    "percentage": 46.17
+  },
+  {
+    "symptom": "no_recall_or_unclear",
+    "count": 1951,
+    "percentage": 31.63
+  },
+  {
+    "symptom": "swallowing_or_consciousness",
+    "count": 440,
+    "percentage": 7.13
+  }
+]

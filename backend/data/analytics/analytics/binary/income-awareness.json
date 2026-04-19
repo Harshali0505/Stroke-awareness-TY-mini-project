@@ -1,0 +1,86 @@
+[
+  {
+    "salary": "2,00,001 - 4,00,000",
+    "category": "High Awareness",
+    "count": 1041,
+    "total": 2029,
+    "percentage": 51.31
+  },
+  {
+    "salary": "2,00,001 - 4,00,000",
+    "category": "Low Awareness",
+    "count": 988,
+    "total": 2029,
+    "percentage": 48.69
+  },
+  {
+    "salary": "4,00,001 - 6,00,000",
+    "category": "High Awareness",
+    "count": 429,
+    "total": 884,
+    "percentage": 48.53
+  },
+  {
+    "salary": "4,00,001 - 6,00,000",
+    "category": "Low Awareness",
+    "count": 455,
+    "total": 884,
+    "percentage": 51.47
+  },
+  {
+    "salary": "6,00,001 - 8,00,000",
+    "category": "High Awareness",
+    "count": 74,
+    "total": 150,
+    "percentage": 49.33
+  },
+  {
+    "salary": "6,00,001 - 8,00,000",
+    "category": "Low Awareness",
+    "count": 76,
+    "total": 150,
+    "percentage": 50.67
+  },
+  {
+    "salary": "above 8,00,000",
+    "category": "High Awareness",
+    "count": 89,
+    "total": 166,
+    "percentage": 53.61
+  },
+  {
+    "salary": "above 8,00,000",
+    "category": "Low Awareness",
+    "count": 77,
+    "total": 166,
+    "percentage": 46.39
+  },
+  {
+    "salary": "below 2,00,000",
+    "category": "High Awareness",
+    "count": 48,
+    "total": 138,
+    "percentage": 34.78
+  },
+  {
+    "salary": "below 2,00,000",
+    "category": "Low Awareness",
+    "count": 90,
+    "total": 138,
+    "percentage": 65.22
+  },
+  {
+    "salary": "not_specified",
+    "category": "High Awareness",
+    "count": 1422,
+    "total": 2801,
+    "percentage": 50.77
+  },
+  {
+    "salary": "not_specified",
+    "category": "Low Awareness",
+    "count": 1379,
+    "total": 2801,
+    "percentage": 49.23
+  }
+]

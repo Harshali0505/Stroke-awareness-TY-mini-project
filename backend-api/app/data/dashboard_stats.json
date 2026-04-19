@@ -1,0 +1,507 @@
+{
+    "kpi": {
+        "totalRespondents": 6168,
+        "avgAwarenessScore": 4.64,
+        "lowCount": 3909,
+        "lowPercent": 63.38,
+        "moderateCount": 2160,
+        "moderatePercent": 35.02,
+        "highCount": 99,
+        "highPercent": 1.61
+    },
+    "overall_awareness": [
+        {
+            "label": "Low Awareness",
+            "count": 3909,
+            "percentage": 63.38
+        },
+        {
+            "label": "Moderate Awareness",
+            "count": 2160,
+            "percentage": 35.02
+        },
+        {
+            "label": "High Awareness",
+            "count": 99,
+            "percentage": 1.61
+        }
+    ],
+    "perception_reality": {
+        "total_participants": 6168,
+        "distribution": [
+            {
+                "know_stroke": "Maybe",
+                "category": "Low Awareness",
+                "count": 41,
+                "total": 41,
+                "percentage": 100.0
+            },
+            {
+                "know_stroke": "No",
+                "category": "Low Awareness",
+                "count": 2044,
+                "total": 2245,
+                "percentage": 91.05
+            },
+            {
+                "know_stroke": "No",
+                "category": "Moderate Awareness",
+                "count": 201,
+                "total": 2245,
+                "percentage": 8.95
+            },
+            {
+                "know_stroke": "Yes",
+                "category": "High Awareness",
+                "count": 99,
+                "total": 3882,
+                "percentage": 2.55
+            },
+            {
+                "know_stroke": "Yes",
+                "category": "Low Awareness",
+                "count": 1824,
+                "total": 3882,
+                "percentage": 46.99
+            },
+            {
+                "know_stroke": "Yes",
+                "category": "Moderate Awareness",
+                "count": 1959,
+                "total": 3882,
+                "percentage": 50.46
+            }
+        ]
+    },
+    "action_gap_percent": 45.9,
+    "num_clusters": 4,
+    "personas": [
+        {
+            "id": "cluster-0",
+            "title": "Cluster 0: At-Risk but Unaware",
+            "population": "1,563",
+            "subtitle": "The Hidden Risk Group",
+            "severity": "red",
+            "profile": "Older age group with high lifestyle risk and zero perceived urgency."
+        },
+        {
+            "id": "cluster-1",
+            "title": "Cluster 1: Aware but High-Risk",
+            "population": "1,838",
+            "subtitle": "The Behavior Gap Group",
+            "severity": "amber",
+            "profile": "High awareness and urgency, but fails to adopt healthy lifestyle habits."
+        },
+        {
+            "id": "cluster-2",
+            "title": "Cluster 2: Aware, Healthy & Responsive",
+            "population": "1,383",
+            "subtitle": "The Ideal Group",
+            "severity": "green",
+            "profile": "Younger group with high awareness, low risk, and proactive response habits."
+        },
+        {
+            "id": "cluster-3",
+            "title": "Cluster 3: Unaware & Unresponsive",
+            "population": "1,384",
+            "subtitle": "The Most Critical Group",
+            "severity": "red",
+            "profile": "Very low awareness and almost zero urgency or action propensity."
+        }
+    ],
+    "demographics": {
+        "age": [
+            {
+                "age": "18-25",
+                "category": "High Awareness",
+                "count": 26,
+                "total": 1547,
+                "percentage": 1.68
+            },
+            {
+                "age": "18-25",
+                "category": "Low Awareness",
+                "count": 1044,
+                "total": 1547,
+                "percentage": 67.49
+            },
+            {
+                "age": "18-25",
+                "category": "Moderate Awareness",
+                "count": 477,
+                "total": 1547,
+                "percentage": 30.83
+            },
+            {
+                "age": "26-40",
+                "category": "High Awareness",
+                "count": 20,
+                "total": 1410,
+                "percentage": 1.42
+            },
+            {
+                "age": "26-40",
+                "category": "Low Awareness",
+                "count": 821,
+                "total": 1410,
+                "percentage": 58.23
+            },
+            {
+                "age": "26-40",
+                "category": "Moderate Awareness",
+                "count": 569,
+                "total": 1410,
+                "percentage": 40.35
+            },
+            {
+                "age": "41-60",
+                "category": "High Awareness",
+                "count": 41,
+                "total": 2079,
+                "percentage": 1.97
+            },
+            {
+                "age": "41-60",
+                "category": "Low Awareness",
+                "count": 1307,
+                "total": 2079,
+                "percentage": 62.87
+            },
+            {
+                "age": "41-60",
+                "category": "Moderate Awareness",
+                "count": 731,
+                "total": 2079,
+                "percentage": 35.16
+            },
+            {
+                "age": "60+",
+                "category": "High Awareness",
+                "count": 12,
+                "total": 1132,
+                "percentage": 1.06
+            },
+            {
+                "age": "60+",
+                "category": "Low Awareness",
+                "count": 737,
+                "total": 1132,
+                "percentage": 65.11
+            },
+            {
+                "age": "60+",
+                "category": "Moderate Awareness",
+                "count": 383,
+                "total": 1132,
+                "percentage": 33.83
+            }
+        ],
+        "gender": [
+            {
+                "gender": "Female",
+                "category": "High Awareness",
+                "count": 70,
+                "total": 3562,
+                "percentage": 1.97
+            },
+            {
+                "gender": "Female",
+                "category": "Low Awareness",
+                "count": 2213,
+                "total": 3562,
+                "percentage": 62.13
+            },
+            {
+                "gender": "Female",
+                "category": "Moderate Awareness",
+                "count": 1279,
+                "total": 3562,
+                "percentage": 35.91
+            },
+            {
+                "gender": "Male",
+                "category": "High Awareness",
+                "count": 29,
+                "total": 2606,
+                "percentage": 1.11
+            },
+            {
+                "gender": "Male",
+                "category": "Low Awareness",
+                "count": 1696,
+                "total": 2606,
+                "percentage": 65.08
+            },
+            {
+                "gender": "Male",
+                "category": "Moderate Awareness",
+                "count": 881,
+                "total": 2606,
+                "percentage": 33.81
+            }
+        ],
+        "educational_level": [
+            {
+                "educational_level": "graduate",
+                "category": "High Awareness",
+                "count": 30,
+                "total": 2079,
+                "percentage": 1.44
+            },
+            {
+                "educational_level": "graduate",
+                "category": "Low Awareness",
+                "count": 1313,
+                "total": 2079,
+                "percentage": 63.16
+            },
+            {
+                "educational_level": "graduate",
+                "category": "Moderate Awareness",
+                "count": 736,
+                "total": 2079,
+                "percentage": 35.4
+            },
+            {
+                "educational_level": "high school",
+                "category": "High Awareness",
+                "count": 47,
+                "total": 3149,
+                "percentage": 1.49
+            },
+            {
+                "educational_level": "high school",
+                "category": "Low Awareness",
+                "count": 1970,
+                "total": 3149,
+                "percentage": 62.56
+            },
+            {
+                "educational_level": "high school",
+                "category": "Moderate Awareness",
+                "count": 1132,
+                "total": 3149,
+                "percentage": 35.95
+            },
+            {
+                "educational_level": "other",
+                "category": "High Awareness",
+                "count": 4,
+                "total": 337,
+                "percentage": 1.19
+            },
+            {
+                "educational_level": "other",
+                "category": "Low Awareness",
+                "count": 211,
+                "total": 337,
+                "percentage": 62.61
+            },
+            {
+                "educational_level": "other",
+                "category": "Moderate Awareness",
+                "count": 122,
+                "total": 337,
+                "percentage": 36.2
+            },
+            {
+                "educational_level": "speciality",
+                "category": "High Awareness",
+                "count": 6,
+                "total": 151,
+                "percentage": 3.97
+            },
+            {
+                "educational_level": "speciality",
+                "category": "Low Awareness",
+                "count": 105,
+                "total": 151,
+                "percentage": 69.54
+            },
+            {
+                "educational_level": "speciality",
+                "category": "Moderate Awareness",
+                "count": 40,
+                "total": 151,
+                "percentage": 26.49
+            },
+            {
+                "educational_level": "undergraduate",
+                "category": "High Awareness",
+                "count": 12,
+                "total": 452,
+                "percentage": 2.65
+            },
+            {
+                "educational_level": "undergraduate",
+                "category": "Low Awareness",
+                "count": 310,
+                "total": 452,
+                "percentage": 68.58
+            },
+            {
+                "educational_level": "undergraduate",
+                "category": "Moderate Awareness",
+                "count": 130,
+                "total": 452,
+                "percentage": 28.76
+            }
+        ],
+        "salary": [
+            {
+                "salary": "2,00,001 - 4,00,000",
+                "category": "High Awareness",
+                "count": 35,
+                "total": 2029,
+                "percentage": 1.72
+            },
+            {
+                "salary": "2,00,001 - 4,00,000",
+                "category": "Low Awareness",
+                "count": 1263,
+                "total": 2029,
+                "percentage": 62.25
+            },
+            {
+                "salary": "2,00,001 - 4,00,000",
+                "category": "Moderate Awareness",
+                "count": 731,
+                "total": 2029,
+                "percentage": 36.03
+            },
+            {
+                "salary": "4,00,001 - 6,00,000",
+                "category": "High Awareness",
+                "count": 10,
+                "total": 884,
+                "percentage": 1.13
+            },
+            {
+                "salary": "4,00,001 - 6,00,000",
+                "category": "Low Awareness",
+                "count": 565,
+                "total": 884,
+                "percentage": 63.91
+            },
+            {
+                "salary": "4,00,001 - 6,00,000",
+                "category": "Moderate Awareness",
+                "count": 309,
+                "total": 884,
+                "percentage": 34.95
+            },
+            {
+                "salary": "6,00,001 - 8,00,000",
+                "category": "Low Awareness",
+                "count": 94,
+                "total": 150,
+                "percentage": 62.67
+            },
+            {
+                "salary": "6,00,001 - 8,00,000",
+                "category": "Moderate Awareness",
+                "count": 56,
+                "total": 150,
+                "percentage": 37.33
+            },
+            {
+                "salary": "above 8,00,000",
+                "category": "High Awareness",
+                "count": 4,
+                "total": 166,
+                "percentage": 2.41
+            },
+            {
+                "salary": "above 8,00,000",
+                "category": "Low Awareness",
+                "count": 105,
+                "total": 166,
+                "percentage": 63.25
+            },
+            {
+                "salary": "above 8,00,000",
+                "category": "Moderate Awareness",
+                "count": 57,
+                "total": 166,
+                "percentage": 34.34
+            },
+            {
+                "salary": "below 2,00,000",
+                "category": "High Awareness",
+                "count": 2,
+                "total": 138,
+                "percentage": 1.45
+            },
+            {
+                "salary": "below 2,00,000",
+                "category": "Low Awareness",
+                "count": 111,
+                "total": 138,
+                "percentage": 80.43
+            },
+            {
+                "salary": "below 2,00,000",
+                "category": "Moderate Awareness",
+                "count": 25,
+                "total": 138,
+                "percentage": 18.12
+            },
+            {
+                "salary": "not_specified",
+                "category": "High Awareness",
+                "count": 48,
+                "total": 2801,
+                "percentage": 1.71
+            },
+            {
+                "salary": "not_specified",
+                "category": "Low Awareness",
+                "count": 1771,
+                "total": 2801,
+                "percentage": 63.23
+            },
+            {
+                "salary": "not_specified",
+                "category": "Moderate Awareness",
+                "count": 982,
+                "total": 2801,
+                "percentage": 35.06
+            }
+        ]
+    },
+    "emergency": {
+        "wrong_action_percent": 53.4,
+        "correct_action_percent": 46.6,
+        "correct_advice_percent": 8.6,
+        "no_advice_percent": 59.7,
+        "no_advice_ratio": "6/10",
+        "funnel": [
+            {
+                "label": "Know Treatment is Immediate",
+                "percentage": 51.6,
+                "desc": "Understand the urgency",
+                "color": "#3b82f6"
+            },
+            {
+                "label": "Go to Hospital/Clinic",
+                "percentage": 50.0,
+                "desc": "Seek professional medical help",
+                "color": "#f59e0b"
+            },
+            {
+                "label": "Call Emergency Services",
+                "percentage": 46.6,
+                "desc": "Take the correct critical action",
+                "color": "#ef4444"
+            }
+        ]
+    },
+    "mastery": {
+        "nosebleed_yes_count": 4374,
+        "nosebleed_yes_percentage": 70.9,
+        "all_four_correct": 22,
+        "all_four_percentage": 0.5,
+        "trap_percentage": 0.51,
+        "three_symptoms_correct": 4287
+    }
+}

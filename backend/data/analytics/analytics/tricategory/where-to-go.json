@@ -1,0 +1,32 @@
+[
+  {
+    "location": "hospital_or_medical_centre",
+    "count": 3082,
+    "percentage": 49.97
+  },
+  {
+    "location": "no response",
+    "count": 1360,
+    "percentage": 22.05
+  },
+  {
+    "location": "doctor_or_specialist",
+    "count": 706,
+    "percentage": 11.45
+  },
+  {
+    "location": "other",
+    "count": 592,
+    "percentage": 9.6
+  },
+  {
+    "location": "emergency_services",
+    "count": 338,
+    "percentage": 5.48
+  },
+  {
+    "location": "for_ct_scan_or_diagnostic",
+    "count": 90,
+    "percentage": 1.46
+  }
+]

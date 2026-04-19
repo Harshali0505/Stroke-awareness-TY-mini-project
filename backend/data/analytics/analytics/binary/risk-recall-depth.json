@@ -1,0 +1,62 @@
+[
+  {
+    "risk_count": 0,
+    "count": 2024,
+    "percentage": 32.81
+  },
+  {
+    "risk_count": 1,
+    "count": 250,
+    "percentage": 4.05
+  },
+  {
+    "risk_count": 2,
+    "count": 82,
+    "percentage": 1.33
+  },
+  {
+    "risk_count": 3,
+    "count": 226,
+    "percentage": 3.66
+  },
+  {
+    "risk_count": 4,
+    "count": 484,
+    "percentage": 7.85
+  },
+  {
+    "risk_count": 5,
+    "count": 487,
+    "percentage": 7.9
+  },
+  {
+    "risk_count": 6,
+    "count": 922,
+    "percentage": 14.95
+  },
+  {
+    "risk_count": 7,
+    "count": 510,
+    "percentage": 8.27
+  },
+  {
+    "risk_count": 8,
+    "count": 588,
+    "percentage": 9.53
+  },
+  {
+    "risk_count": 9,
+    "count": 402,
+    "percentage": 6.52
+  },
+  {
+    "risk_count": 10,
+    "count": 140,
+    "percentage": 2.27
+  },
+  {
+    "risk_count": 11,
+    "count": 53,
+    "percentage": 0.86
+  }
+]

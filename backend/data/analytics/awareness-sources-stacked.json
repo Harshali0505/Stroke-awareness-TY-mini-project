@@ -1,0 +1,107 @@
+[
+  {
+    "source": "not aware",
+    "category": "Low Awareness",
+    "count": 621,
+    "percentage": 99.68,
+    "total": 623
+  },
+  {
+    "source": "not aware",
+    "category": "Moderate Awareness",
+    "count": 2,
+    "percentage": 0.32,
+    "total": 623
+  },
+  {
+    "source": "media (tv, radio, newspapers, etc.)",
+    "category": "High Awareness",
+    "count": 17,
+    "percentage": 1.11,
+    "total": 1532
+  },
+  {
+    "source": "media (tv, radio, newspapers, etc.)",
+    "category": "Low Awareness",
+    "count": 1018,
+    "percentage": 66.45,
+    "total": 1532
+  },
+  {
+    "source": "media (tv, radio, newspapers, etc.)",
+    "category": "Moderate Awareness",
+    "count": 497,
+    "percentage": 32.44,
+    "total": 1532
+  },
+  {
+    "source": "educational materials (brochures, websites, etc.)",
+    "category": "High Awareness",
+    "count": 4,
+    "percentage": 0.43,
+    "total": 930
+  },
+  {
+    "source": "educational materials (brochures, websites, etc.)",
+    "category": "Low Awareness",
+    "count": 621,
+    "percentage": 66.77,
+    "total": 930
+  },
+  {
+    "source": "educational materials (brochures, websites, etc.)",
+    "category": "Moderate Awareness",
+    "count": 305,
+    "percentage": 32.8,
+    "total": 930
+  },
+  {
+    "source": "family/friends",
+    "category": "Low Awareness",
+    "count": 451,
+    "percentage": 67.41,
+    "total": 669
+  },
+  {
+    "source": "family/friends",
+    "category": "Moderate Awareness",
+    "count": 218,
+    "percentage": 32.59,
+    "total": 669
+  },
+  {
+    "source": "other",
+    "category": "Low Awareness",
+    "count": 537,
+    "percentage": 95.04,
+    "total": 565
+  },
+  {
+    "source": "other",
+    "category": "Moderate Awareness",
+    "count": 28,
+    "percentage": 4.96,
+    "total": 565
+  },
+  {
+    "source": "healthcare provider",
+    "category": "High Awareness",
+    "count": 78,
+    "percentage": 4.22,
+    "total": 1849
+  },
+  {
+    "source": "healthcare provider",
+    "category": "Low Awareness",
+    "count": 661,
+    "percentage": 35.75,
+    "total": 1849
+  },
+  {
+    "source": "healthcare provider",
+    "category": "Moderate Awareness",
+    "count": 1110,
+    "percentage": 60.03,
+    "total": 1849
+  }
+]

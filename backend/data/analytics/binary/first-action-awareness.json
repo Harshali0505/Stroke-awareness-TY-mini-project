@@ -1,0 +1,72 @@
+[
+  {
+    "first_contact_after_experiencing_symptom": "doctor",
+    "category": "High Awareness",
+    "count": 721,
+    "total": 1252,
+    "percentage": 57.59
+  },
+  {
+    "first_contact_after_experiencing_symptom": "doctor",
+    "category": "Low Awareness",
+    "count": 531,
+    "total": 1252,
+    "percentage": 42.41
+  },
+  {
+    "first_contact_after_experiencing_symptom": "emergency_services",
+    "category": "High Awareness",
+    "count": 1557,
+    "total": 1609,
+    "percentage": 96.77
+  },
+  {
+    "first_contact_after_experiencing_symptom": "emergency_services",
+    "category": "Low Awareness",
+    "count": 52,
+    "total": 1609,
+    "percentage": 3.23
+  },
+  {
+    "first_contact_after_experiencing_symptom": "family/friend",
+    "category": "High Awareness",
+    "count": 365,
+    "total": 1366,
+    "percentage": 26.72
+  },
+  {
+    "first_contact_after_experiencing_symptom": "family/friend",
+    "category": "Low Awareness",
+    "count": 1001,
+    "total": 1366,
+    "percentage": 73.28
+  },
+  {
+    "first_contact_after_experiencing_symptom": "hospital",
+    "category": "High Awareness",
+    "count": 426,
+    "total": 538,
+    "percentage": 79.18
+  },
+  {
+    "first_contact_after_experiencing_symptom": "hospital",
+    "category": "Low Awareness",
+    "count": 112,
+    "total": 538,
+    "percentage": 20.82
+  },
+  {
+    "first_contact_after_experiencing_symptom": "unaware",
+    "category": "High Awareness",
+    "count": 34,
+    "total": 1403,
+    "percentage": 2.42
+  },
+  {
+    "first_contact_after_experiencing_symptom": "unaware",
+    "category": "Low Awareness",
+    "count": 1369,
+    "total": 1403,
+    "percentage": 97.58
+  }
+]

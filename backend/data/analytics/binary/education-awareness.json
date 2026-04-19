@@ -1,0 +1,72 @@
+[
+  {
+    "educational_level": "graduate",
+    "category": "High Awareness",
+    "count": 1043,
+    "total": 2079,
+    "percentage": 50.17
+  },
+  {
+    "educational_level": "graduate",
+    "category": "Low Awareness",
+    "count": 1036,
+    "total": 2079,
+    "percentage": 49.83
+  },
+  {
+    "educational_level": "high school",
+    "category": "High Awareness",
+    "count": 1622,
+    "total": 3149,
+    "percentage": 51.51
+  },
+  {
+    "educational_level": "high school",
+    "category": "Low Awareness",
+    "count": 1527,
+    "total": 3149,
+    "percentage": 48.49
+  },
+  {
+    "educational_level": "other",
+    "category": "High Awareness",
+    "count": 178,
+    "total": 337,
+    "percentage": 52.82
+  },
+  {
+    "educational_level": "other",
+    "category": "Low Awareness",
+    "count": 159,
+    "total": 337,
+    "percentage": 47.18
+  },
+  {
+    "educational_level": "speciality",
+    "category": "High Awareness",
+    "count": 60,
+    "total": 151,
+    "percentage": 39.74
+  },
+  {
+    "educational_level": "speciality",
+    "category": "Low Awareness",
+    "count": 91,
+    "total": 151,
+    "percentage": 60.26
+  },
+  {
+    "educational_level": "undergraduate",
+    "category": "High Awareness",
+    "count": 200,
+    "total": 452,
+    "percentage": 44.25
+  },
+  {
+    "educational_level": "undergraduate",
+    "category": "Low Awareness",
+    "count": 252,
+    "total": 452,
+    "percentage": 55.75
+  }
+]

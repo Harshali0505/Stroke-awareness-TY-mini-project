@@ -1,0 +1,86 @@
+[
+  {
+    "source": "not aware",
+    "category": "High Awareness",
+    "count": 3,
+    "percentage": 0.48,
+    "total": 623
+  },
+  {
+    "source": "not aware",
+    "category": "Low Awareness",
+    "count": 620,
+    "percentage": 99.52,
+    "total": 623
+  },
+  {
+    "source": "media (tv, radio, newspapers, etc.)",
+    "category": "High Awareness",
+    "count": 768,
+    "percentage": 50.13,
+    "total": 1532
+  },
+  {
+    "source": "media (tv, radio, newspapers, etc.)",
+    "category": "Low Awareness",
+    "count": 764,
+    "percentage": 49.87,
+    "total": 1532
+  },
+  {
+    "source": "educational materials (brochures, websites, etc.)",
+    "category": "High Awareness",
+    "count": 423,
+    "percentage": 45.48,
+    "total": 930
+  },
+  {
+    "source": "educational materials (brochures, websites, etc.)",
+    "category": "Low Awareness",
+    "count": 507,
+    "percentage": 54.52,
+    "total": 930
+  },
+  {
+    "source": "family/friends",
+    "category": "High Awareness",
+    "count": 368,
+    "percentage": 55.01,
+    "total": 669
+  },
+  {
+    "source": "family/friends",
+    "category": "Low Awareness",
+    "count": 301,
+    "percentage": 44.99,
+    "total": 669
+  },
+  {
+    "source": "other",
+    "category": "High Awareness",
+    "count": 79,
+    "percentage": 13.98,
+    "total": 565
+  },
+  {
+    "source": "other",
+    "category": "Low Awareness",
+    "count": 486,
+    "percentage": 86.02,
+    "total": 565
+  },
+  {
+    "source": "healthcare provider",
+    "category": "High Awareness",
+    "count": 1462,
+    "percentage": 79.07,
+    "total": 1849
+  },
+  {
+    "source": "healthcare provider",
+    "category": "Low Awareness",
+    "count": 387,
+    "percentage": 20.93,
+    "total": 1849
+  }
+]
