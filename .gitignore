@@ -1,15 +1,38 @@
 # Python
 venv/
+venv_ml/
+env/
+.venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Node (Dashboard)
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
 
 # Generated data
 *.csv
-
-# Local datasets
 *.xlsx
 *.docx
+*.zip
 
-# OS junk
+# OS and IDE junk
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.sln
+*.sw?
+
+#subrepositories
+dashboard/Stroke-awareness-dashboard
+models/stroke-disease-prediction
+~$*

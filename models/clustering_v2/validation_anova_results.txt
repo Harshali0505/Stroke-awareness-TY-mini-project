@@ -1,0 +1,164 @@
+============================================================
+PHASE 3.2 - ANOVA / KRUSKAL-WALLIS VALIDATION RESULTS
+============================================================
+
+ALGORITHM: K-Means
+----------------------------------------
+Validated Clusters: [np.int64(0), np.int64(1), np.int64(2), np.int64(3)]
+
+Variable: awareness_score
+  ANOVA F-statistic: 5794.483, P-value: 0.00000e+00
+  Kruskal H-statistic: 4288.609, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: lifestyle_risk_score
+  ANOVA F-statistic: 251.456, P-value: 6.04602e-154
+  Kruskal H-statistic: 707.713, P-value: 4.46322e-153
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: score_action_first_symptom
+  ANOVA F-statistic: 889.707, P-value: 0.00000e+00
+  Kruskal H-statistic: 1633.020, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: score_urgency
+  ANOVA F-statistic: 15371.389, P-value: 0.00000e+00
+  Kruskal H-statistic: 5439.863, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: age_enc_v2
+  ANOVA F-statistic: 839.363, P-value: 0.00000e+00
+  Kruskal H-statistic: 1797.999, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+
+========================================
+
+ALGORITHM: Hierarchical
+----------------------------------------
+Validated Clusters: [np.int64(1), np.int64(2), np.int64(3), np.int64(4)]
+
+Variable: awareness_score
+  ANOVA F-statistic: 7412.604, P-value: 0.00000e+00
+  Kruskal H-statistic: 4567.415, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: lifestyle_risk_score
+  ANOVA F-statistic: 24.414, P-value: 1.06503e-15
+  Kruskal H-statistic: 67.789, P-value: 1.26949e-14
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: score_action_first_symptom
+  ANOVA F-statistic: 1319.527, P-value: 0.00000e+00
+  Kruskal H-statistic: 2081.286, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: score_urgency
+  ANOVA F-statistic: 12415.286, P-value: 0.00000e+00
+  Kruskal H-statistic: 5291.314, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: age_enc_v2
+  ANOVA F-statistic: 29.971, P-value: 3.14407e-19
+  Kruskal H-statistic: 88.576, P-value: 4.42902e-19
+  Interpretation: VERY STRONG separation
+--------------------
+
+========================================
+
+ALGORITHM: DBSCAN
+----------------------------------------
+Validated Clusters: [np.int64(0), np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5), np.int64(6), np.int64(7), np.int64(8), np.int64(9), np.int64(10), np.int64(11), np.int64(12), np.int64(13), np.int64(14), np.int64(15), np.int64(16), np.int64(17), np.int64(18), np.int64(19), np.int64(20), np.int64(21), np.int64(22), np.int64(23), np.int64(24), np.int64(25), np.int64(26), np.int64(27), np.int64(28), np.int64(29), np.int64(30), np.int64(31), np.int64(32), np.int64(33), np.int64(34), np.int64(35), np.int64(36), np.int64(37), np.int64(38)]
+
+Variable: awareness_score
+  ANOVA F-statistic: 629.547, P-value: 0.00000e+00
+  Kruskal H-statistic: 3761.329, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: lifestyle_risk_score
+  ANOVA F-statistic: 20.788, P-value: 5.28035e-130
+  Kruskal H-statistic: 657.137, P-value: 6.63598e-114
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: score_action_first_symptom
+  ANOVA F-statistic: inf, P-value: 0.00000e+00
+  Kruskal H-statistic: 4967.000, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: score_urgency
+  ANOVA F-statistic: inf, P-value: 0.00000e+00
+  Kruskal H-statistic: 4967.000, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: age_enc_v2
+  ANOVA F-statistic: inf, P-value: 0.00000e+00
+  Kruskal H-statistic: 4967.000, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+
+========================================
+
+ALGORITHM: GMM
+----------------------------------------
+Validated Clusters: [np.int64(0), np.int64(1), np.int64(2), np.int64(3)]
+
+Variable: awareness_score
+  ANOVA F-statistic: 2645.628, P-value: 0.00000e+00
+  Kruskal H-statistic: 3414.359, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: lifestyle_risk_score
+  ANOVA F-statistic: 88.807, P-value: 2.95169e-56
+  Kruskal H-statistic: 264.686, P-value: 4.35522e-57
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: score_action_first_symptom
+  ANOVA F-statistic: 181.529, P-value: 8.55682e-113
+  Kruskal H-statistic: 426.224, P-value: 4.61782e-92
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: score_urgency
+  ANOVA F-statistic: inf, P-value: 0.00000e+00
+  Kruskal H-statistic: 6167.000, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: age_enc_v2
+  ANOVA F-statistic: 812.106, P-value: 0.00000e+00
+  Kruskal H-statistic: 1710.925, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+
+========================================
+
+ALGORITHM: Spectral
+----------------------------------------
+Validated Clusters: [np.int64(0), np.int64(1), np.int64(2), np.int64(3)]
+
+Variable: awareness_score
+  ANOVA F-statistic: 2130.704, P-value: 0.00000e+00
+  Kruskal H-statistic: 3104.478, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: lifestyle_risk_score
+  ANOVA F-statistic: 0.726, P-value: 5.36412e-01
+  Kruskal H-statistic: 1.818, P-value: 6.10968e-01
+  Interpretation: NOT meaningfully different
+--------------------
+Variable: score_action_first_symptom
+  ANOVA F-statistic: 1237.954, P-value: 0.00000e+00
+  Kruskal H-statistic: 2720.695, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: score_urgency
+  ANOVA F-statistic: 3163907.752, P-value: 0.00000e+00
+  Kruskal H-statistic: 6162.998, P-value: 0.00000e+00
+  Interpretation: VERY STRONG separation
+--------------------
+Variable: age_enc_v2
+  ANOVA F-statistic: 7.816, P-value: 3.32502e-05
+  Kruskal H-statistic: 23.201, P-value: 3.66653e-05
+  Interpretation: VERY STRONG separation
+--------------------
+
+========================================
+

@@ -1,0 +1,47 @@
+{
+    "total_participants": 6168,
+    "distribution": [
+        {
+            "know_stroke": "Maybe",
+            "category": "Low Awareness",
+            "count": 41,
+            "total": 41,
+            "percentage": 100.0
+        },
+        {
+            "know_stroke": "No",
+            "category": "Low Awareness",
+            "count": 2044,
+            "total": 2245,
+            "percentage": 91.05
+        },
+        {
+            "know_stroke": "No",
+            "category": "Moderate Awareness",
+            "count": 201,
+            "total": 2245,
+            "percentage": 8.95
+        },
+        {
+            "know_stroke": "Yes",
+            "category": "High Awareness",
+            "count": 99,
+            "total": 3882,
+            "percentage": 2.55
+        },
+        {
+            "know_stroke": "Yes",
+            "category": "Low Awareness",
+            "count": 1824,
+            "total": 3882,
+            "percentage": 46.99
+        },
+        {
+            "know_stroke": "Yes",
+            "category": "Moderate Awareness",
+            "count": 1959,
+            "total": 3882,
+            "percentage": 50.46
+        }
+    ]
+}

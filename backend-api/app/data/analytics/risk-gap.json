@@ -1,0 +1,74 @@
+[
+  {
+    "risk": "smoking_or_tobacco",
+    "identified_count": 3186,
+    "identified_percent": 51.65,
+    "not_identified_percent": 48.35
+  },
+  {
+    "risk": "high_cholesterol",
+    "identified_count": 3012,
+    "identified_percent": 48.83,
+    "not_identified_percent": 51.17
+  },
+  {
+    "risk": "hypertension",
+    "identified_count": 2983,
+    "identified_percent": 48.36,
+    "not_identified_percent": 51.64
+  },
+  {
+    "risk": "diabetes",
+    "identified_count": 2977,
+    "identified_percent": 48.27,
+    "not_identified_percent": 51.73
+  },
+  {
+    "risk": "obesity_or_physical_inactivity",
+    "identified_count": 2914,
+    "identified_percent": 47.24,
+    "not_identified_percent": 52.76
+  },
+  {
+    "risk": "family_history_or_genetics",
+    "identified_count": 2359,
+    "identified_percent": 38.25,
+    "not_identified_percent": 61.75
+  },
+  {
+    "risk": "heart_disease_or_af",
+    "identified_count": 1998,
+    "identified_percent": 32.39,
+    "not_identified_percent": 67.61
+  },
+  {
+    "risk": "age",
+    "identified_count": 1902,
+    "identified_percent": 30.84,
+    "not_identified_percent": 69.16
+  },
+  {
+    "risk": "alcohol_or_drug_use",
+    "identified_count": 1789,
+    "identified_percent": 29.0,
+    "not_identified_percent": 71.0
+  },
+  {
+    "risk": "gender",
+    "identified_count": 700,
+    "identified_percent": 11.35,
+    "not_identified_percent": 88.65
+  },
+  {
+    "risk": "unhealthy_diet",
+    "identified_count": 661,
+    "identified_percent": 10.72,
+    "not_identified_percent": 89.28
+  },
+  {
+    "risk": "previous_stroke_or_tia",
+    "identified_count": 240,
+    "identified_percent": 3.89,
+    "not_identified_percent": 96.11
+  }
+]

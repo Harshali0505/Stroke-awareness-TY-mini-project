@@ -1,0 +1,44 @@
+[
+  {
+    "do_you_have_a_family_history_of_brain_or_heart_stroke,_of_hypertension_or_diabetes_?": "maybe",
+    "category": "High Awareness",
+    "count": 143,
+    "total": 296,
+    "percentage": 48.31
+  },
+  {
+    "do_you_have_a_family_history_of_brain_or_heart_stroke,_of_hypertension_or_diabetes_?": "maybe",
+    "category": "Low Awareness",
+    "count": 153,
+    "total": 296,
+    "percentage": 51.69
+  },
+  {
+    "do_you_have_a_family_history_of_brain_or_heart_stroke,_of_hypertension_or_diabetes_?": "no",
+    "category": "High Awareness",
+    "count": 2733,
+    "total": 5409,
+    "percentage": 50.53
+  },
+  {
+    "do_you_have_a_family_history_of_brain_or_heart_stroke,_of_hypertension_or_diabetes_?": "no",
+    "category": "Low Awareness",
+    "count": 2676,
+    "total": 5409,
+    "percentage": 49.47
+  },
+  {
+    "do_you_have_a_family_history_of_brain_or_heart_stroke,_of_hypertension_or_diabetes_?": "yes",
+    "category": "High Awareness",
+    "count": 227,
+    "total": 463,
+    "percentage": 49.03
+  },
+  {
+    "do_you_have_a_family_history_of_brain_or_heart_stroke,_of_hypertension_or_diabetes_?": "yes",
+    "category": "Low Awareness",
+    "count": 236,
+    "total": 463,
+    "percentage": 50.97
+  }
+]

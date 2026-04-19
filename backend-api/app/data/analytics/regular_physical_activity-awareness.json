@@ -1,0 +1,44 @@
+[
+  {
+    "regular_physical_activity": "no",
+    "category": "High Awareness",
+    "count": 64,
+    "total": 4264,
+    "percentage": 1.5
+  },
+  {
+    "regular_physical_activity": "no",
+    "category": "Low Awareness",
+    "count": 2673,
+    "total": 4264,
+    "percentage": 62.69
+  },
+  {
+    "regular_physical_activity": "no",
+    "category": "Moderate Awareness",
+    "count": 1527,
+    "total": 4264,
+    "percentage": 35.81
+  },
+  {
+    "regular_physical_activity": "yes",
+    "category": "High Awareness",
+    "count": 35,
+    "total": 1904,
+    "percentage": 1.84
+  },
+  {
+    "regular_physical_activity": "yes",
+    "category": "Low Awareness",
+    "count": 1236,
+    "total": 1904,
+    "percentage": 64.92
+  },
+  {
+    "regular_physical_activity": "yes",
+    "category": "Moderate Awareness",
+    "count": 633,
+    "total": 1904,
+    "percentage": 33.25
+  }
+]

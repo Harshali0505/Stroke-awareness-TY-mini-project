@@ -1,0 +1,55 @@
+﻿============================================================
+PHASE 2: TESTING HYPOTHESIS 3 (H3)
+H3: KnowledgeûAction Gap
+============================================================
+
+STEP 2: CONTINGENCY TABLE (Symptom Awareness vs Action)
+-------------------------------------------------------
+action_cat              Passive  Proactive
+symptom_awareness_cat                     
+High Symptom Awareness     1257       1701
+Low Symptom Awareness      2035       1175
+
+STEP 3: CHI-SQUARE TEST
+------------------------------
+Chi-square statistic: 269.3829
+p-value:              0.0000
+Interpretation: Significant association found (p < 0.05). Awareness and action are related.
+
+STEP 4: GAP PERCENTAGE ANALYSIS
+------------------------------
+In the High Awareness group (2958 people):
+  - Proactive (Knows & Does): 57.51%
+  - Passive (Knows but Delays): 42.49% <--- THE GAP
+
+Interpretation: A substantial portion (42.5%) of knowledgeable people still delay action.
+This strongly supports the 'Knowledge-Action Gap' hypothesis.
+
+STEP 5: LOGISTIC REGRESSION
+------------------------------
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:          action_binary   No. Observations:                 6168
+Model:                          Logit   Df Residuals:                     6166
+Method:                           MLE   Df Model:                            1
+Date:                Sun, 22 Feb 2026   Pseudo R-squ.:                 0.03192
+Time:                        13:13:52   Log-Likelihood:                -4125.3
+converged:                       True   LL-Null:                       -4261.3
+Covariance Type:            nonrobust   LLR p-value:                 4.030e-61
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const               -0.5492      0.037    -14.990      0.000      -0.621      -0.477
+awareness_binary     0.8517      0.052     16.313      0.000       0.749       0.954
+====================================================================================
+
+Logistic P-value for Awareness: 0.0000
+Coefficient for Awareness:      0.8517
+Interpretation: High awareness significantly increases the odds of proactive action.
+
+============================================================
+STEP 6: FINAL CONCLUSION
+============================================================
+CONCLUSION: Hypothesis 3 (H3) is SUPPORTED.
+Evidence shows a clear Knowledge-Action Gap: 42.5% of high-awareness individuals act passively.
+============================================================

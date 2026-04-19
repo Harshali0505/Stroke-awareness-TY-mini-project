@@ -1,0 +1,332 @@
+[
+  {
+    "bmi": 10,
+    "count": 4,
+    "percentage": 0.06
+  },
+  {
+    "bmi": 11,
+    "count": 2,
+    "percentage": 0.03
+  },
+  {
+    "bmi": 12,
+    "count": 2,
+    "percentage": 0.03
+  },
+  {
+    "bmi": 13,
+    "count": 14,
+    "percentage": 0.23
+  },
+  {
+    "bmi": 14,
+    "count": 19,
+    "percentage": 0.31
+  },
+  {
+    "bmi": 15,
+    "count": 21,
+    "percentage": 0.34
+  },
+  {
+    "bmi": 16,
+    "count": 42,
+    "percentage": 0.68
+  },
+  {
+    "bmi": 17,
+    "count": 56,
+    "percentage": 0.91
+  },
+  {
+    "bmi": 18,
+    "count": 98,
+    "percentage": 1.59
+  },
+  {
+    "bmi": 19,
+    "count": 136,
+    "percentage": 2.2
+  },
+  {
+    "bmi": 20,
+    "count": 174,
+    "percentage": 2.82
+  },
+  {
+    "bmi": 21,
+    "count": 210,
+    "percentage": 3.4
+  },
+  {
+    "bmi": 22,
+    "count": 296,
+    "percentage": 4.8
+  },
+  {
+    "bmi": 23,
+    "count": 414,
+    "percentage": 6.71
+  },
+  {
+    "bmi": 24,
+    "count": 349,
+    "percentage": 5.66
+  },
+  {
+    "bmi": 25,
+    "count": 775,
+    "percentage": 12.56
+  },
+  {
+    "bmi": 26,
+    "count": 730,
+    "percentage": 11.84
+  },
+  {
+    "bmi": 27,
+    "count": 543,
+    "percentage": 8.8
+  },
+  {
+    "bmi": 28,
+    "count": 393,
+    "percentage": 6.37
+  },
+  {
+    "bmi": 29,
+    "count": 322,
+    "percentage": 5.22
+  },
+  {
+    "bmi": 30,
+    "count": 244,
+    "percentage": 3.96
+  },
+  {
+    "bmi": 31,
+    "count": 187,
+    "percentage": 3.03
+  },
+  {
+    "bmi": 32,
+    "count": 153,
+    "percentage": 2.48
+  },
+  {
+    "bmi": 33,
+    "count": 145,
+    "percentage": 2.35
+  },
+  {
+    "bmi": 34,
+    "count": 107,
+    "percentage": 1.73
+  },
+  {
+    "bmi": 35,
+    "count": 112,
+    "percentage": 1.82
+  },
+  {
+    "bmi": 36,
+    "count": 71,
+    "percentage": 1.15
+  },
+  {
+    "bmi": 37,
+    "count": 42,
+    "percentage": 0.68
+  },
+  {
+    "bmi": 38,
+    "count": 39,
+    "percentage": 0.63
+  },
+  {
+    "bmi": 39,
+    "count": 50,
+    "percentage": 0.81
+  },
+  {
+    "bmi": 40,
+    "count": 34,
+    "percentage": 0.55
+  },
+  {
+    "bmi": 41,
+    "count": 36,
+    "percentage": 0.58
+  },
+  {
+    "bmi": 42,
+    "count": 28,
+    "percentage": 0.45
+  },
+  {
+    "bmi": 43,
+    "count": 21,
+    "percentage": 0.34
+  },
+  {
+    "bmi": 44,
+    "count": 18,
+    "percentage": 0.29
+  },
+  {
+    "bmi": 45,
+    "count": 22,
+    "percentage": 0.36
+  },
+  {
+    "bmi": 46,
+    "count": 13,
+    "percentage": 0.21
+  },
+  {
+    "bmi": 47,
+    "count": 17,
+    "percentage": 0.28
+  },
+  {
+    "bmi": 48,
+    "count": 5,
+    "percentage": 0.08
+  },
+  {
+    "bmi": 49,
+    "count": 11,
+    "percentage": 0.18
+  },
+  {
+    "bmi": 50,
+    "count": 7,
+    "percentage": 0.11
+  },
+  {
+    "bmi": 51,
+    "count": 4,
+    "percentage": 0.06
+  },
+  {
+    "bmi": 52,
+    "count": 15,
+    "percentage": 0.24
+  },
+  {
+    "bmi": 53,
+    "count": 8,
+    "percentage": 0.13
+  },
+  {
+    "bmi": 54,
+    "count": 6,
+    "percentage": 0.1
+  },
+  {
+    "bmi": 55,
+    "count": 9,
+    "percentage": 0.15
+  },
+  {
+    "bmi": 56,
+    "count": 6,
+    "percentage": 0.1
+  },
+  {
+    "bmi": 57,
+    "count": 7,
+    "percentage": 0.11
+  },
+  {
+    "bmi": 58,
+    "count": 10,
+    "percentage": 0.16
+  },
+  {
+    "bmi": 59,
+    "count": 7,
+    "percentage": 0.11
+  },
+  {
+    "bmi": 60,
+    "count": 2,
+    "percentage": 0.03
+  },
+  {
+    "bmi": 61,
+    "count": 2,
+    "percentage": 0.03
+  },
+  {
+    "bmi": 62,
+    "count": 2,
+    "percentage": 0.03
+  },
+  {
+    "bmi": 64,
+    "count": 4,
+    "percentage": 0.06
+  },
+  {
+    "bmi": 65,
+    "count": 3,
+    "percentage": 0.05
+  },
+  {
+    "bmi": 67,
+    "count": 1,
+    "percentage": 0.02
+  },
+  {
+    "bmi": 71,
+    "count": 2,
+    "percentage": 0.03
+  },
+  {
+    "bmi": 73,
+    "count": 2,
+    "percentage": 0.03
+  },
+  {
+    "bmi": 75,
+    "count": 6,
+    "percentage": 0.1
+  },
+  {
+    "bmi": 80,
+    "count": 1,
+    "percentage": 0.02
+  },
+  {
+    "bmi": 98,
+    "count": 2,
+    "percentage": 0.03
+  },
+  {
+    "bmi": 124,
+    "count": 1,
+    "percentage": 0.02
+  },
+  {
+    "bmi": 129,
+    "count": 1,
+    "percentage": 0.02
+  },
+  {
+    "bmi": 196,
+    "count": 1,
+    "percentage": 0.02
+  },
+  {
+    "bmi": 269,
+    "count": 1,
+    "percentage": 0.02
+  },
+  {
+    "bmi": 20825,
+    "count": 1,
+    "percentage": 0.02
+  }
+]

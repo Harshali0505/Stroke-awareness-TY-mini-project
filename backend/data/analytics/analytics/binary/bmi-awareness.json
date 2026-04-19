@@ -1,0 +1,58 @@
+[
+  {
+    "range": "normal weight",
+    "category": "High Awareness",
+    "count": 433,
+    "total": 1163,
+    "percentage": 37.23
+  },
+  {
+    "range": "normal weight",
+    "category": "Low Awareness",
+    "count": 730,
+    "total": 1163,
+    "percentage": 62.77
+  },
+  {
+    "range": "obese",
+    "category": "High Awareness",
+    "count": 319,
+    "total": 933,
+    "percentage": 34.19
+  },
+  {
+    "range": "obese",
+    "category": "Low Awareness",
+    "count": 614,
+    "total": 933,
+    "percentage": 65.81
+  },
+  {
+    "range": "overweight",
+    "category": "High Awareness",
+    "count": 739,
+    "total": 1808,
+    "percentage": 40.87
+  },
+  {
+    "range": "overweight",
+    "category": "Low Awareness",
+    "count": 1069,
+    "total": 1808,
+    "percentage": 59.13
+  },
+  {
+    "range": "underweight",
+    "category": "High Awareness",
+    "count": 67,
+    "total": 169,
+    "percentage": 39.64
+  },
+  {
+    "range": "underweight",
+    "category": "Low Awareness",
+    "count": 102,
+    "total": 169,
+    "percentage": 60.36
+  }
+]

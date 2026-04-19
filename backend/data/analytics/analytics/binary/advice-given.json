@@ -1,0 +1,42 @@
+[
+  {
+    "advice": "no_response",
+    "count": 3681,
+    "percentage": 59.68
+  },
+  {
+    "advice": "seek_medical_help",
+    "count": 751,
+    "percentage": 12.18
+  },
+  {
+    "advice": "call_emergency_services",
+    "count": 529,
+    "percentage": 8.58
+  },
+  {
+    "advice": "keep_the_person_calm",
+    "count": 511,
+    "percentage": 8.28
+  },
+  {
+    "advice": "other",
+    "count": 436,
+    "percentage": 7.07
+  },
+  {
+    "advice": "avoid_food_or_drink_sleep",
+    "count": 222,
+    "percentage": 3.6
+  },
+  {
+    "advice": "ensure_rest_and_safety",
+    "count": 29,
+    "percentage": 0.47
+  },
+  {
+    "advice": "observe_and_monitor_symptoms",
+    "count": 9,
+    "percentage": 0.15
+  }
+]

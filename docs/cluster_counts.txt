@@ -1,0 +1,66 @@
+-- kmeans_results.csv --
+Cluster 0: 1296 respondents
+Cluster 1: 1504 respondents
+Cluster 2: 1619 respondents
+Cluster 3: 1749 respondents
+
+-- gmm_results.csv --
+Cluster 0: 2983 respondents
+Cluster 1: 2140 respondents
+Cluster 2: 861 respondents
+Cluster 3: 184 respondents
+
+-- hierarchical_results.csv --
+Cluster 1: 2852 respondents
+Cluster 2: 1248 respondents
+Cluster 3: 1115 respondents
+Cluster 4: 953 respondents
+
+-- spectral_results.csv --
+Cluster 0: 1730 respondents
+Cluster 1: 2974 respondents
+Cluster 2: 10 respondents
+Cluster 3: 1454 respondents
+
+-- dbscan_results.csv --
+Cluster -1: 1200 respondents
+Cluster 0: 234 respondents
+Cluster 1: 116 respondents
+Cluster 2: 179 respondents
+Cluster 3: 150 respondents
+Cluster 4: 24 respondents
+Cluster 5: 123 respondents
+Cluster 6: 18 respondents
+Cluster 7: 170 respondents
+Cluster 8: 148 respondents
+Cluster 9: 18 respondents
+Cluster 10: 223 respondents
+Cluster 11: 505 respondents
+Cluster 12: 126 respondents
+Cluster 13: 352 respondents
+Cluster 14: 294 respondents
+Cluster 15: 38 respondents
+Cluster 16: 331 respondents
+Cluster 17: 177 respondents
+Cluster 18: 317 respondents
+Cluster 19: 22 respondents
+Cluster 20: 404 respondents
+Cluster 21: 81 respondents
+Cluster 22: 94 respondents
+Cluster 23: 14 respondents
+Cluster 24: 276 respondents
+Cluster 25: 151 respondents
+Cluster 26: 50 respondents
+Cluster 27: 33 respondents
+Cluster 28: 76 respondents
+Cluster 29: 73 respondents
+Cluster 30: 18 respondents
+Cluster 31: 16 respondents
+Cluster 32: 14 respondents
+Cluster 33: 12 respondents
+Cluster 34: 17 respondents
+Cluster 35: 33 respondents
+Cluster 36: 12 respondents
+Cluster 37: 19 respondents
+Cluster 38: 10 respondents
+

@@ -1,0 +1,27 @@
+[
+  {
+    "time_category": "immediately",
+    "count": 3185,
+    "percentage": 51.64
+  },
+  {
+    "time_category": "no_response",
+    "count": 1555,
+    "percentage": 25.21
+  },
+  {
+    "time_category": "after_few_days_(2-3days_or_week)",
+    "count": 1038,
+    "percentage": 16.83
+  },
+  {
+    "time_category": "unaware",
+    "count": 203,
+    "percentage": 3.29
+  },
+  {
+    "time_category": "after_checkup _or_medical_tests",
+    "count": 187,
+    "percentage": 3.03
+  }
+]

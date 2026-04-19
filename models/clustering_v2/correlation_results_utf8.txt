@@ -1,0 +1,59 @@
+﻿Analyzing 5 variables: ['awareness_score', 'lifestyle_risk_score', 'symptom_awareness_score', 'score_action_first_symptom', 'score_urgency']
+
+============================================================
+STEP 2  DISTRIBUTION ANALYSIS
+============================================================
+                  Variable  Skewness  Kurtosis     Interpretation
+           awareness_score    -0.206    -1.302 Fairly Symmetrical
+      lifestyle_risk_score     0.455     0.421 Fairly Symmetrical
+   symptom_awareness_score    -0.586    -1.267  Moderately Skewed
+score_action_first_symptom    -0.564    -0.798  Moderately Skewed
+             score_urgency    -0.066    -1.996 Fairly Symmetrical
+
+Recommendation: Pearson correlation is suitable for symmetrical distributions.
+If highly skewed, consider Spearman rank correlation as a robustness check.
+
+============================================================
+STEP 3 & 4  CORRELATION MATRIX (Pearson r)
+============================================================
+
+Correlation Coefficients (r):
+                            awareness_score  lifestyle_risk_score  symptom_awareness_score  score_action_first_symptom  score_urgency
+awareness_score                       1.000                 0.013                    0.873                       0.412          0.706
+lifestyle_risk_score                  0.013                 1.000                    0.010                       0.002         -0.011
+symptom_awareness_score               0.873                 0.010                    1.000                       0.437          0.529
+score_action_first_symptom            0.412                 0.002                    0.437                       1.000          0.255
+score_urgency                         0.706                -0.011                    0.529                       0.255          1.000
+
+P-Values (Significance):
+                           awareness_score lifestyle_risk_score symptom_awareness_score score_action_first_symptom score_urgency
+awareness_score                     0.0000               0.3069                  0.0000                     0.0000        0.0000
+lifestyle_risk_score                0.3069               0.0000                  0.4135                     0.9043        0.4026
+symptom_awareness_score             0.0000               0.4135                  0.0000                     0.0000        0.0000
+score_action_first_symptom          0.0000               0.9043                  0.0000                     0.0000        0.0000
+score_urgency                       0.0000               0.4026                  0.0000                     0.0000        0.0000
+
+============================================================
+STEP 5 & 6  SPECIFIC HYPOTHESIS & SAFETY CHECKS
+============================================================
+
+- HYPOTHESIS: Higher awareness should lead to lower lifestyle risk (Negative Correlation).
+  Result: r = 0.013, p = 0.3069 (No relationship, Not Significant)
+
+- HYPOTHESIS: KnowledgeûAction Gap check (Positive expected).
+  Result: r = 0.437, p = 0.0000 (Moderate, Significant)
+
+- HYPOTHESIS: Urgency perception should drive prompt action (Positive Correlation).
+  Result: r = 0.255, p = 0.0000 (Weak, Significant)
+
+Multicollinearity Safety Check (r > 0.80):
+  [!] RED FLAG: awareness_score and symptom_awareness_score are highly correlated (r = 0.873)
+
+============================================================
+STEP 7  GENERATING HEATMAP
+============================================================
+DONE: Heatmap saved to: C:\Projects\Stroke-awareness-TY-mini-project\clustering_v2\correlation_heatmap.png
+
+============================================================
+DIAGNOSTICS COMPLETE
+============================================================

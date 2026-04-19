@@ -1,0 +1,27 @@
+[
+  {
+    "specialist": "Physician",
+    "count": 3820,
+    "percentage": 61.93
+  },
+  {
+    "specialist": "Neurologist",
+    "count": 1474,
+    "percentage": 23.9
+  },
+  {
+    "specialist": "Orthopedic",
+    "count": 447,
+    "percentage": 7.25
+  },
+  {
+    "specialist": "ENT (Ear, Nose, and Throat specialist)",
+    "count": 401,
+    "percentage": 6.5
+  },
+  {
+    "specialist": "unaware",
+    "count": 26,
+    "percentage": 0.42
+  }
+]
