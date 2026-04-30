@@ -13,6 +13,7 @@ A research-oriented data science project focused on analyzing stroke awareness, 
 The repository is modularized to separate data processing, research analysis, and visual presentation:
 
 -   **`models/clustering_v2/`**: The core research hub. Contains clustering algorithms, statistical validation (ANOVA/Chi-Sq), and the **Cluster Verification Report**.
+-   **`models/stroke-disease-prediction/`**: The neural network inference hub. Contains the baseline MLP model, a FastAPI prediction engine, and the **Prediction UI Web Dashboard**.
 -   **`dashboard/`**: A React/Vite frontend that visualizes research findings with a fully dynamic, theme-responsive UI.
 -   **`awareness_scoring/`**: Logic for normalizing survey data into quantitative 0-10 awareness and risk scores.
 -   **`core_data/`**: Centralized repository for raw and cleaned datasets.
@@ -99,6 +100,20 @@ python models/clustering_v2/generate_dashboard_json.py
 ### 2. Launch Dashboard
 ```bash
 cd dashboard/Stroke-awareness-dashboard
+npm install
+npm run dev
+```
+
+### 3. Launch Stroke Prediction Engine
+The Prediction UI will be accessible at `http://localhost:5174/`. Enter patient details in the clinical form to receive a real-time risk assessment via the 64-node baseline network.
+
+```bash
+# Terminal 1: Backend API
+cd models/stroke-disease-prediction
+uvicorn api:app --reload
+
+# Terminal 2: Prediction UI
+cd models/stroke-disease-prediction/prediction-ui
 npm install
 npm run dev
 ```
